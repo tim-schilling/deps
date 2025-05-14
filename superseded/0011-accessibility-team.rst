@@ -6,13 +6,20 @@ DEP 11: Accessibility Team
 :Author: Tom Carrick
 :Implementation Team: Tom Carrick, Thibaud Colas, Sarah Abderemane, Tushar Gupta, Saptak Sengupta, Eli Rosselli, others to be determined.
 :Shepherd: Carlton Gibson
-:Status: Final
+:Status: Superseded
 :Type: Process
 :Created: 2020-06-29
 
 .. contents:: Table of Contents
   :depth: 3
   :local:
+
+Superseded
+==========
+
+DEP 11: Accessibility Team has been superseded by the addition of the
+Accessibility Team as a Working Group. The new definition can be found
+on the `dsf-working-groups repository <https://github.com/django/dsf-working-groups/blob/main/active/accessibility.md>`_.
 
 Abstract
 ========
