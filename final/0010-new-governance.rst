@@ -39,120 +39,30 @@ below.
 What roles will there be in the project after this change?
 ----------------------------------------------------------
 
-Three roles will be actively involved in producing Django as we know
-it: Mergers, Releasers, and the Technical Board. One additional role,
-"Django Core Developer", is honorary, and used to recognize
-individuals who have previously made significant contributions to
-Django. A Django Core Developer will not have any type of automatic
-governance, oversight, or code-committing privileges.
-
-In addition, a Triage & Review Team will be created to recognize active
-contributors, and allow additional privileges when assisting on pull request
-reviews.
+?
 
 
 How will code get added to Django?
 ----------------------------------
 
-For smaller changes such as bugfixes and minor features, Mergers will
-use their judgment to determine if there's consensus that the change
-is good, and merge it if so. If they have any concerns, they can start
-a discussion and/or consult the Technical Board. The Django Security
-Team will also have the ability to authorize the merge of code to fix
-security issues being handled under Django's security process.
+For smaller changes such as documentation, bugfixes and minor features,
+Mergers will use their judgment to determine if there's consensus that the
+change is good, and merge it if so. The Django Security
+Team can authorize the merge of code to fix security issues.
 
-For larger changes that use the DEP process, code will be merged to
-Django as the milestones of the DEP's implementation are reached,
-unless the Technical Board decides to block the merge.
+For larger changes, the `new-features repo`_ should be used.
 
 
 Who decides when Django gets released?
 --------------------------------------
 
-Django's bugfix releases already follow a consistent schedule, and
-feature releases (and their alpha/beta/candidate packages) have target
-dates scheduled in advance, as per the time-based release schedule defined in
-`DEP 44`_.
-
-This will continue. There will continue to be consultation on release blockers
-and the Technical Board will have the power to change the schedule or delay a
-release as needed. The Django Security Team will also have the ability to
-authorize off-schedule releases as needed to fix critical security issues.
+See `DEP 44`_.
 
 
 Who decides the technical direction of Django?
 ----------------------------------------------
 
-Anyone can propose new features or directions for Django. For larger
-features, the DEP process will be used, and for smaller features
-discussion in the appropriate forum will be used with the aim of
-achieving consensus on the change. The Technical Board will have the
-power to veto individual changes or proposals.
-
-The Technical Board will also periodically request proposals for new
-features/ideas for upcoming releases of Django, and maintain an archive
-of them.
-
-
-How will the people in these roles be chosen?
----------------------------------------------
-
-Mergers and Releasers will be selected by the Technical Board in
-consultation with the DSF's Fellowship Committee.
-
-The Technical Board will be elected periodically, and any person who
-has made a substantive contribution to Django in the past is eligible
-to vote.
-
-Django Core Developers will be recognized and granted that title by
-the DSF. An initial grant of the title will occur automatically to the
-people who have historically been part of "Django Core".
-
-
-Who can speak on behalf of Django?
-----------------------------------
-
-Originally, Adrian and Jacob, as co-BDFLs, could speak on behalf of
-Django if they wished. Since they stepped back from that role, no
-single person has had the authority to do so.
-
-Under this governance model, it will still be the case that no single
-person will speak on behalf of Django; people holding particular roles
-will be free to state their opinions as holders of those roles, but
-that will not bind or commit the Django open-source project to any
-particular course of action.
-
-Note that this only refers to the technical direction of the Django
-open-source project; the DSF has both the right and the obligation to
-speak on behalf of Django in certain legal and financial matters, and
-changing the governance of the open-source project will not change
-that.
-
-
-Why can't people serve on the Technical Board if they hold certain other roles?
--------------------------------------------------------------------------------
-
-To avoid concentration of power/authority in any single person, or any
-small group of people. It has been the case at least once in the past
-that a single person -- *other* than Adrian and Jacob during their
-time as BDFLs -- held commit access, release permission, the private
-key for security@djangoproject.com, root access to the
-djangoproject.com servers, a seat on the Technical Board, and a seat
-on the DSF Board, all at the same time. This is an undesirable
-situation, and as a result there are some restrictions on how many
-roles a single person may hold simultaneously.
-
-
-If this doesn't work, how can it be changed?
---------------------------------------------
-
-This proposal includes a process for making changes. It will use a
-modified version of the DEP process, and require approval by at least
-the Technical Board and the DSF Board to adopt a change to
-governance. Additionally, for any change that either board feels is
-large enough to require it, there is a procedure for changes to be put
-to a vote of the community.
-
+See `new-features repo`_.
 
 Terminology
 ===========
@@ -265,86 +175,6 @@ The following roles are repurposed:
 * Technical Board
 
 
-New role: Merger
-----------------
-
-In place of the prior informally-specified role of committer, Django
-will formalize and expand the *de facto* process already in place: the
-role of the Merger. A Merger is a person who merges pull requests to
-<https://github.com/django/django/>.
-
-The set of Mergers SHOULD be small; the ideal would be between three
-and five people, in order to spread the workload and avoid
-over-burdening or burning out any individual Merger. In light of that,
-the current Django Fellows SHALL become the first set of
-Mergers. Thereafter, the Technical Board SHALL select Mergers as
-necessary to maintain their number at a minimum of three.
-
-It SHALL NOT be a requirement that a Merger also be a Django Fellow,
-but the Django Software Foundation SHALL have the power to use funding
-of Fellow positions as a way to make the role of Merger sustainable.
-
-A person MAY serve in the roles of Releaser and Merger simultaneously,
-but a person MUST NOT serve as a Merger and a member of the Technical
-Board simultaneously.
-
-
-New role: Releaser
-------------------
-
-Over its history, the Django project has granted various people
-permission to issue packaged releases of Django. At present five
-people have permission to upload releases to the Python Package Index.
-
-The role of Releaser will formalize this: a Releaser is a person who
-has the authority (and will be granted the necessary permissions) to
-upload packaged releases of Django to the Python Package Index, and to
-djangoproject.com.
-
-A person MAY serve in the roles of Releaser and Merger simultaneously.
-
-The initial set of Releasers SHALL consist of the Django
-Fellows. Thereafter, the Technical Board will select Releasers as
-necessary to maintain their number at a minimum of three. All persons
-who currently have permission to upload release of Django to the
-Python Package Index, but who do not become or are not selected as
-Releasers, SHALL have that permission revoked.
-
-It SHALL NOT be a requirement that a Releaser also be a Django Fellow,
-but the Django Software Foundation SHALL have the power to use funding
-of Fellow positions as a way to make the role of Releaser sustainable.
-
-New role: Triage & Review Team
-------------------------------
-
-The Triage & Review Team allows current, regular contributors additional
-permissions on GitHub, in order to assist with the processing of pull requests.
-
-The objective of the team is to help spread work beyond the Mergers and into
-the wider contributor community.
-
-* There will be a GitHub Team with GitHub's Triage Permission to allow
-  members to help manage pull requests directly.
-
-* A pull request approval from a member of the Triage and Review team will be
-  sufficient to allow a Merger to merge a minor change they themselves have
-  proposed.
-
-* Subject to both the Django Code of Conduct, and to Technical Board
-  oversight, the Triage and Review Team will be self-managing.
-
-* Anyone actively engaging in discussions on GitHub and django-developers will
-  be eligible to join the Triage and Review Team. Membership is not meant to be
-  bureaucratic: folks who are active should be invited by a team member or
-  Merger, or quietly mention that they've been overlooked and would like to
-  join if this fails to happen. A simple seconding from an existing member
-  should be enough for approval.
-
-* Team membership will be reviewed with each major release. Members will be
-  asked if they wish to continue. For self-care, those needing a break are
-  advised to take it. Former members will be welcome back in the future.
-
-
 Repurposed role: Technical Board
 --------------------------------
 
@@ -358,87 +188,14 @@ The powers of the Technical Board are:
 * To make a binding decision regarding any question of a technical
   change to Django.
 
-* To veto the merging of any particular piece of code into Django or
-  order the reversion of any particular merge or commit.
+* To manage the Steering Council's membership via an election with the
+  DSF Board secretary.
 
-* To put out calls for proposals and ideas for the future technical
-  direction of Django.
-
-* To set and to adjust the schedule of releases of Django.
-
-* To select Mergers and Releasers, other than the initial appointments
-  of the Django Fellows at the time of adoption of this governance
-  process.
-
-* To remove Mergers and/or Releasers, when deemed appropriate, using
-  the processes described in this document.
-
-* To participate in the removal of members of the Technical Board,
-  when deemed appropriate, using the processes described in this
-  document.
-
-* To call elections of the Technical Board outside of those which are
-  automatically triggered, at times when the Technical Board deems an
-  election is appropriate, using the processes described in this
-  document.
-
-* To participate in modifying Django's governance, using the processes
-  described in this document.
-
-* To decline to vote on a matter the Technical Board feels is unripe
-  for a binding decision, or which the Technical Board feels is
-  outside the scope of its powers.
-
-* To take charge of the governance of other technical teams within the
-  Django open-source project, following the processes described below,
-  and to govern those teams accordingly.
+* To create/update technical teams
 
 The Technical Board SHALL consist initially of five members. To be
-qualified for election to the Technical Board, a candidate MUST
-demonstrate:
+qualified for election to the Technical Board, see `DEP 12`_.
 
-* A history of technical contributions to Django or the Django
-  ecosystem. This history MUST begin at least 18 months prior to the
-  individual's candidacy for the Technical Board.
-
-* A history of participation in Django's development outside of
-  contributions merged to the <https://github.com/django/django/>
-  repository. This may include, but is not restricted to:
-
-  * Participation in discussions on the django-developers mailing list
-    or Django Forum.
-
-  * Reviewing and offering feedback on pull requests in the Django
-    source-code repository
-
-  * Assisting in triage and management of the
-    Django bug tracker.
-
-* A history of recent engagement with the direction and development of
-  Django. Such engagement MUST have occurred within a period of no
-  more than two years prior to the individual's candidacy for the
-  Technical Board.
-
-
-Repurposed role: Django Core Developer
---------------------------------------
-
-The role of Django Core Developer SHALL be used as an honorary title
-in recognition of an individual's significant and extended
-contributions to Django or to major parts of its ecosystem.
-
-At the time of adoption of this proposal, all individuals who meet the
-definition of "Django Core", as given in the terminology section of
-this DEP, SHALL be granted the title of Django Core Developer,
-retroactive to the date on which they first met that definition of
-"Django Core", and the DSF SHALL publish, on djangoproject.com, a list
-of all such persons.
-
-Future grants of the title of Django Core Developer will be made by
-the DSF Board; the DSF Board SHALL use input from the Technical Board,
-the DSF membership, and interested members of the general public, to
-identify candidates for this title, and SHALL maintain and publish the
-list of individuals to whom this title has been granted.
 
 
 How Django's development is discussed
