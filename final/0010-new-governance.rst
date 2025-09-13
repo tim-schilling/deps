@@ -197,185 +197,37 @@ The Technical Board SHALL consist initially of five members. To be
 qualified for election to the Technical Board, see `DEP 12`_.
 
 
-
-How Django's development is discussed
--------------------------------------
-
-Discussion of Django's technical development can take place in any
-venue approved by this DEP or by the Technical Board, so long as that
-venue is open to interested members of the public. Such a venue is
-defined as follows:
-
-* Such a venue MAY require prior registration of an account to
-  participate, but MUST NOT require monetary payment from general
-  participants to join or participate. A venue which has both paid and
-  non-paid membership options available is acceptable.
-
-* Such a venue MAY have rules for participation established by the
-  Technical Board, and MAY be moderated by a person or persons
-  designated by the Technical Board, for the purpose of maintaining
-  good order and on-topic discussion.
-
-* All such venues MUST be subject to the Django Code of
-  Conduct.
-
-* Moderators of such venues MAY remove, close, filter, restrict access
-  to, and/or lock particular messages, threads, and/or sections of the
-  venue as necessary, in the moderators' judgment, to enforce the
-  venue's rules and the Django Code of Conduct. The Technical Board
-  SHALL be the final arbiter of the rules of such venues, and the Code
-  of Conduct committee of the DSF, with appeal to the DSF Board, SHALL
-  be the final arbiter of the application of the Django Code of
-  Conduct in such venues.
-
-* Such a venue also MUST exclude any person deemed ineligible to
-  participate in the community spaces of the Django project by the
-  Code of Conduct committee of the DSF, for at least the period of
-  time during which the Code of Conduct committee deems that person
-  ineligible.
-
-* Such a venue also MAY temporarily exclude a person who has been
-  deemed by the designated moderators to be disruptive, acting in bad
-  faith, spamming, or otherwise not behaving in accordance with the
-  rules of the venue or the Django Code of Conduct, and MAY
-  permanently exclude such a person, if the Technical Board and/or the
-  DSF Code of Conduct committee approve a permanent exclusion of that
-  person.
-
-* Finally, such a venue also MAY exclude, temporarily or permanently,
-  any person whose membership, account, and/or access is suspended or
-  terminated by a third-party provider of the platform and/or of
-  account services (such as an identity provider service, if such
-  venue uses a third-party identity provider for authentication).
-
-The django-developers mailing list, the code.djangoproject.com bug
-tracker and wiki, the pull-request discussion areas of the primary
-Django repository on GitHub, and the Django Forum SHALL all be deemed
-venues generally open to interested members of the public, for
-purposes of this document.
-
-
 How Django is developed
 -----------------------
 
-Any Releaser MAY, on their own initiative, merge administrative commits, such
-as bumping version numbers or adding stub release notes, without seeking
-approval from other Releasers or Mergers.
+Any person who signs the contributor CLA can write code for Django. Everyone is encouraged to open tickets, triage tickets and perform code reviews.
 
-Any Merger MAY, on their own initiative, merge any pull request which
-constitutes a Minor Change, with one exception: a Merger MUST NOT merge
-a Minor Change primarily authored by that Merger, unless the pull
-request has been approved by another Merger, by a Technical Board
-member, by a member of the Triage & Review Team, or by the Django Security
-Team.
+Commits can only be merged in by the Mergers team. A Merger can merge their own commits if it's been reviewed by another Merger, the Triage & Review Team or Security Team. Releasers can also merge commits when they are related to releases.
 
-Any Merger MAY initiate discussion of a Minor Change in the
-appropriate venue, and request that other Mergers refrain from merging
-it while discussion proceeds. Any Merger MAY request a vote of the
-Technical Board regarding any Minor Change if, in the Merger's
-opinion, discussion has failed to reach a consensus.
-
-When a Major Change reaches one of its implementation milestones, any
-Merger or member of the associated DEP's Implementation Team MAY
-inform the Technical Board of an intent to merge the appropriate
-code. The Technical Board MUST then hold a vote (see `Voting process
-of the Technical Board`_ below) on whether to permit the merge; if the
-result of the vote is any result other than a veto, the code MAY be
-merged at the earliest practical opportunity after the vote, by any
-Merger, without further consultation with the Technical Board.
-
+Changes that fail to reach "minor consensus" can be escalated to the Steering Council for a final decision to merge.
 
 How Django is released
 ----------------------
 
+Only members of the Releasers team may perform a release. 
+
 Django follows the time-based release schedule, as outlined in `DEP 44`_.
 
-The following points apply specifically to the oversight role of the Technical
-Board:
-
-1. When the scheduled date of a Feature Release, of an
-   alpha/beta/candidate package for a Feature Release, or of a Bugfix
-   Release is less than one week away, the Technical Board MAY, by
-   vote, request that the Releasers not issue the release on the
-   scheduled date. In the event that the Technical Board does make
-   such a request, the Releasers MUST NOT issue the release until such
-   time as they receive an update from the Technical Board granting
-   permission for the release. If the Technical Board requests that a
-   release not be issued, they SHALL provide public notice, on the
-   django-developers mailing list or the Django Forum, of their
-   reasoning, and SHALL provide timely updates regarding the status of
-   the release.
-
-2. At any time, the Django Security Team MAY ask a Releaser to issue
-   one or more Security Releases of Django, regardless of prior
-   schedule, in order to handle a security issue under Django's
-   security process. When the Django Security Team makes such a
-   request, the Releaser MUST issue the requested release(s) at or as
-   close as is practicable to the time of release requested by the
-   Django Security Team. The Technical Board MUST NOT attempt to
-   prevent such release(s) from occurring; if the Technical Board
-   feels such release(s) are or were inappropriate, the Technical
-   Board may take action after the release(s).
+The Security Team may request a Security Release of Django. This should be performed at or as close as is practicable to the time of release requested by the Security Team.
 
 
 How Django's technical direction is determined
 ----------------------------------------------
 
-Any member in good standing of a discussion venue that is generally
-open to interested members of the public, and which has been
-designated for discussion of such proposals, MAY propose new features
-for Django at any time.
+Everyone is encouraged to propose and provide feedback on new features for Django at any time on the new-features repo.
 
-For features which qualify as a Minor Change, proposers SHALL use the
-code.djangoproject.com bug tracker and/or the django-developers list
-or the Django Forum to make their proposal, and discussion SHALL occur
-in those venues, or in such other venue as the Technical Board may
-direct, provided that the venue of discussion is generally open to
-interested members of the public.
+For features which qualify as a Major Change, proposers may be asked to use the DEP process.
 
-For features which qualify as a Major Change, proposers SHALL use the
-DEP process, with discussion taking place on the django-developers
-mailing list, the Django Forum, or in such other venue as the
-Technical Board may direct, provided that the venue of discussion is
-generally open to interested members of the public.
 
-In order to provide focus for development efforts, the Technical Board SHALL
-periodically issue a public call, on the django-developers mailing list and the
-Django Forum, for proposals of features to be implemented in the future Feature
-Releases. The Technical Board SHALL ensure that such proposals are archived in
-a venue generally open to interested members of the public.
+If discussion of a Minor Change has failed to produce consensus, a member may ask the
+Steering Council to make a decision.
 
-The Technical Board SHALL have the right to veto, via its voting
-process, any proposed change to Django.
-
-Acceptance and implementation of a Major Change specified via the DEP
-process MUST NOT occur until the Technical Board has, via its voting
-process, accepted the DEP.
-
-If discussion of a Minor Change has failed to produce consensus, any
-member in good standing of the discussion venue MAY request that the
-Technical Board make a decision, via its voting process. The Technical
-Board MAY decline to vote and instead ask for further discussion to
-occur, or deem that a consensus was reached via discussion.
-
-Any member in good standing of an appropriate discussion venue for a
-proposal MAY request that the Technical Board reconsider a proposal
-previously vetoed, but not until at least six months have elapsed
-since the veto, or the next Feature Release of Django has occurred,
-whichever is later. The Technical Board MAY decline to reconsider the
-proposal, and allow the veto to stand without a new vote. In the event
-that the Technical Board once again vetoes the proposal, or allows the
-previous veto to stand, the proposal SHALL NOT be raised for
-reconsideration again until after the next election of the Technical
-Board, unless a member of the Technical Board requests that the
-Technical Board reconsider the proposal.
-
-Any member of the Technical Board MAY request that the Technical Board
-reconsider a proposal previously vetoed, regardless of the amount of
-time that has elapsed since the veto, and regardless of whether the
-Technical Board has vetoed the proposal multiple times or allowed a
-previous veto to stand. The Technical Board MAY decline to reconsider
-the proposal, and allow the veto to stand without a new vote.
+Vetoed discussions and features are eligible to be revisited after six months.
 
 
 Voting process of the Technical Board
@@ -384,7 +236,7 @@ Voting process of the Technical Board
 When a vote of the Technical Board is held, they SHALL use the
 following process:
 
-1. A proposal put to the Technical Board SHALL be in the form of a yes
+1. A proposal is proposed to the Steering Council in the form of a yes
    or no question. For example: "Shall the Django project accept and
    begin implementation of DEP 10?"
 
@@ -392,57 +244,16 @@ following process:
 
    * Accept: the "yes" option of the question is to be taken.
 
-   * No Action: the "no" option of the question is taken, but the
-     proposal is not subject to the waiting period for
-     reconsideration.
-
    * Veto: the "no" option of the question is taken, and the proposal
      is subject to the waiting period for reconsideration.
 
-3. Members of the Technical Board SHALL have, from the time a question
-   is put to them, a voting period of one week to review the question
-   and submit their votes.
+3. Members of the Steering Council will vote privately or respond with a timeline to vote within a week.
 
-4. Votes MUST be made in public, on the django-developers mailing
-   list, Django Forum, or such other venue, generally open to
-   interested members of the public, as the Technical Board may
-   direct.
+4. To be accepted, the proposal must have a majority of Steering Council members voting yes.
 
-5. Each vote MUST be one of the following: "+1", "0", or "-1". Each
-   vote SHOULD be accompanied by an explanation of the voter's
-   reasoning.
+5. The outcome of the proposal will be published on the forum, ticket, or new-features repo. It should contain the reasoning for the decision, the concerns considered and optionally any dissenting opinions.
 
-6. Votes SHALL be counted as follows: the score of the proposal is an
-   integer, and initially is zero. Each "+1" vote adds one to the
-   score; each "0" vote leaves the score unchanged; and each "-1" vote
-   subtracts one from the score.
-
-7. If a voting period ends and not all members of the Technical Board
-   have voted, the vote SHALL be deemed incomplete if either: a
-   majority of the members of the Technical Board have not voted; or
-   a majority have voted, but the current score of the proposal is -1,
-   0, 2, or 3 (that is, the score is such that a single additional
-   vote could change its outcome). When a voting period ends and the
-   vote is deemed incomplete, an additional voting period of one week
-   SHALL occur, and this process SHALL repeat until a voting period
-   closes and the vote is not deemed incomplete. Members of the
-   Technical Board who have already voted on the current proposal MAY
-   change their votes at any time prior to closing of the final voting
-   period. The most recently-indicated vote on the proposal of each
-   member of the Technical Board SHALL be the one counted toward the
-   proposal's score.
-
-8. Once a voting period ends and is not deemed incomplete, the final
-   score SHALL be tallied from the votes cast, and the outcome SHALL
-   be as follows: a score of 3 or greater produces an outcome of
-   Accept; a score less than 3 but greater than or equal to zero
-   produces an outcome of No Action; a score of less than zero produces
-   an outcome of Veto.
-
-Votes of the Technical Board on matters within the scope of its powers
-are binding. All persons involved in or contributing to the
-development of Django, including all Mergers and Releasers, MUST abide
-by these decisions.
+Votes of the Steering Council are binding, meaning all Django contributors must abide by the decision.
 
 
 Process of selecting Mergers and Releasers
