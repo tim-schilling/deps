@@ -223,12 +223,20 @@ Everyone is encouraged to propose and provide feedback on new features for Djang
 
 For features which qualify as a Major Change, proposers may be asked to use the DEP process.
 
-
 If discussion of a Minor Change has failed to produce consensus, a member may ask the
 Steering Council to make a decision.
 
 Vetoed discussions and features are eligible to be revisited after six months.
 
+Decision making process of the Technical Board
+----------------------------------------------
+
+When asked to make a technical decision, the Technical Board should first discuss this
+amongst themselves. If there's agreement on a course of action, a single member will
+respond the forum, ticket, or new-features repo on behalf of the Technical Board. It
+may optionally include a dissenting opinion if someone wishes to include one.
+
+If the Technical Board can't arrive at an agreement, a formal vote may be invoked.
 
 Voting process of the Technical Board
 -------------------------------------
@@ -256,7 +264,6 @@ following process:
 Votes of the Steering Council are binding, meaning all Django contributors must abide by the decision.
 
 
-
 Process of selecting the Technical Board
 ----------------------------------------
 
@@ -264,98 +271,59 @@ The initial Technical Board shall be made up of the final technical
 board elected under Django's prior governance process.
 
 Whenever an election of the Technical Board is triggered, via any of
-the mechanisms described in this document, the following limits SHALL
-immediately apply to the Technical Board's powers, until such time as
-the election has concluded:
+the mechanisms described in this document, the Technical Board will be limited in the following ways until the election is complete:
 
-* Any appointments to the roles of Merger and/or Releaser, other than
-  of Django Fellows, SHALL be temporary, and SHALL automatically
-  terminate one month after the election of a Technical Board under
-  the process described below, unless re-confirmed by the Technical
-  Board so elected.
-
-* The Technical Board MUST NOT accept any DEPs or changes to DEPs, and
-  MUST NOT change the governance process described in this document,
-  until after the election has concluded and the Technical Board so
-  elected has been seated.
+* The Technical Board must not accept any DEPs or changes to DEPs, and
+  must not change the governance process described in this document.
 
 Elections of the Technical Board are triggered by any of the following
 events:
 
-* Immediately and automatically upon adoption of this governance
-  proposal, though that election MAY be delayed for a period to be
-  determined by the DSF Board, in order to allow technical
-  implementation of the required voter registration and balloting
-  features.
-
-* Immediately and automatically, one week after the actual release of
+* One week after the actual release of
   the final Feature Release of a Major Release Series of Django, if no
   election of the Technical Board has yet occurred during that Major
   Release Series.
 
-* Immediately and automatically when fewer than three of the members
-  elected in the most recent election of the Technical Board remain
-  among the current roster of members of the Technical Board.
+* When the current members contains less than three members who were
+  elected in the most recent election of the Technical Board.
 
 * At any other time, if the Technical Board votes to produce an Accept
   outcome on the question "Shall an election of the Technical Board
   occur?"
 
-Any person who meets one of the following qualifications is generally
-eligible to vote in elections of the Technical Board:
+Only Individual members of the DSF are
+eligible to vote in elections of the Technical Board.
 
-* Any person who holds an Individual membership in the DSF.
+The privilege to vote in elections of the Technical
+Board may be revoked at any time by one of the following:
 
-* Any person who can demonstrate, on application to the DSF, a history
-  of substantive contribution to Django or its ecosystem. Such persons
-  are also encouraged to apply for Individual membership in the DSF,
-  but are not required to do so.
+* The Code of Conduct committee of the DSF for a violation of the Django
+Code of Conduct
 
-The privilege of any person to vote in elections of the Technical
-Board may be revoked at any time, with or without warning, by the Code
-of Conduct committee of the DSF for reason of violation of the Django
-Code of Conduct (and is automatically revoked if the Code of Conduct
-committee deems someone ineligible to participate in the community
-spaces of the Django project), or by the DSF Board if, in the sole
-judgment of the DSF Board, the person in question has falsified their
-qualifications for voting privileges or otherwise acted in bad faith.
+* The Code of Conduc Committee has deemed someone ineligible to participate in the community spaces of the Django project
 
 The roll of voters for elections of the Technical Board SHALL be
-maintained by the DSF Board, which SHALL act as a neutral arbiter and
-judge of Technical Board elections. Members of the DSF Board MAY stand
+maintained by the DSF Board and will act as a neutral arbiter and
+judge of Technical Board elections. Members of the DSF Board may stand
 for election to the Technical Board if qualified, but any DSF Board
 member who is a current member of the Technical Board or a candidate
-in an upcoming election MUST abstain from taking part in the DSF
-Board's oversight of that Technical Board election. The DSF Board MAY
+in an upcoming election must abstain from taking part in the DSF
+Board's oversight of that Technical Board election. The DSF Board may
 delegate aspects of its oversight responsibilities (such as the
-technical details of constructing registration and voting forms) if it
-chooses to do so, but only the DSF Board may ratify the results of a
+technical details of constructing registration and voting forms),
+but only the DSF Board may ratify the results of a
 Technical Board election.
 
 The process of electing a Technical Board is as follows:
 
-1. When an election is automatically triggered, or when the Technical
-   Board votes to trigger an election, the Technical Board SHALL
+1. When an election is triggered, the Technical Board SHALL
    direct one of its members to notify the Secretary of the DSF, in
    writing, of the triggering of the election, and the condition which
-   triggered it. The Secretary of the DSF then SHALL post to the
-   appropriate venue -- the django-developers mailing list and the
-   Django Forum to announce the election and its timeline.
+   triggered it. The Secretary of the DSF then will post to the
+   Django Forum and other appropriate venues to announce the election and its timeline.
 
 2. As soon as the election is announced, the DSF Board shall begin a
-   period of voter registration. All Individual members of the DSF are
-   automatically registered and need not explicitly register. All
-   other persons who believe themselves eligible to vote, but who have
-   not yet registered to vote, MAY make an application to the DSF
-   Board for voting privileges. The voter registration form and roll
-   of voters SHALL be maintained by the DSF Board. The DSF Board MAY
-   challenge and reject the registration of voters it believes are
-   registering in bad faith or who it believes have falsified their
-   qualifications or are otherwise unqualified.
-
-3. Registration of voters will close one week after the announcement
-   of the election. At that point, registration of candidates will
-   begin. Any qualified person may register as a candidate; the
+   period of candidate registration. Any qualified person may register as a candidate; the
    candidate registration form and roster of candidates SHALL be
    maintained by the DSF Board, and candidates MUST provide evidence
    of their qualifications as part of registration. The DSF Board MAY
@@ -363,25 +331,24 @@ The process of electing a Technical Board is as follows:
    not meet the qualifications of members of the Technical Board, or
    who it believes are registering in bad faith.
 
-4. Registration of candidates will close one week after it has
+3. Registration of candidates will close two weeks after it has
    opened. One week after registration of candidates closes, the
-   Secretary of the DSF SHALL publish the roster of candidates to the
-   django-developers mailing list and the Django Forum, and the
-   election will begin. The DSF Board SHALL provide a voting form
-   accessible to registered voters, and SHALL be the custodian of the
-   votes.
+   Secretary of the DSF will publish the roster of candidates to the
+   the Django Forum and any other appropriate venues, and the
+   election will begin. The DSF Board will provide a voting form
+   accessible to registered voters.
 
-5. Voting SHALL be by secret ballot. Each voter will be presented with
+4. Voting will be by secret ballot. Each voter will be presented with
    a ballot containing the roster of candidates, and any relevant
    materials regarding the candidates, in a randomized order. Each
-   voter MAY vote for up to five candidates on the ballot.
+   voter may vote for up to five candidates on the ballot.
 
-6. The election SHALL conclude one week after it begins. The DSF Board
-   SHALL then tally the votes and produce a summary, including the
+5. The election will conclude one week after it begins. The DSF Board
+   will tally the votes and produce a summary, including the
    total number of votes cast and the number received by each
-   candidate. This summary SHALL be ratified by a majority vote of the
+   candidate. This summary will be ratified by a majority vote of the
    DSF Board, then posted by the Secretary of the DSF to the
-   django-developers mailing list and the Django Forum. The five
+   the Django Forum and any other appropriate venues. The five
    candidates with the highest vote totals SHALL immediately become
    the new Technical Board.
 
@@ -391,7 +358,7 @@ of two ways:
 * They become ineligible due to actions of the Code of Conduct
   committee of the DSF. If this occurs, the affected person
   immediately ceases to be a member of the Technical Board. If that
-  person's ineligibiliity ends at a later date, they MAY become a
+  person's ineligibiliity ends at a later date, they may become a
   candidate for the Technical Board again in an election occurring
   after that date.
 
@@ -405,29 +372,23 @@ of two ways:
   affected person, if a DSF Board member, MUST NOT vote) vote "yes" on
   a motion that the person in question is ineligible.
 
-A member of the Technical Board MAY notify the other members of the
-Technical Board, and the Secretary of the DSF (or the President of the
-DSF, if the member in question is serving as the Secretary of the
-DSF), in writing, of a temporary or permanent incapacity which
-prevents them from continuing to serve on the Technical Board. A
-member of the Technical Board MAY resign from the Technical Board by
+A member of the Technical Board MAY resign from the Technical Board by
 notifying the other members of the Technical Board of their intent to
 resign.
 
-The Technical Board MAY fill a temporary or permanent vacancy on the
+The Technical Board should try to fill a vacancy on the
 Technical Board. To do so, the other members of the Technical Board
 (and the departing member(s), if eligible and willing), SHALL use this
 process:
 
 * Any member of the Technical Board, including an otherwise eligible
-  but departing member, MAY nominate a candidate to fill a vacancy.
+  but departing member, may nominate a candidate to fill a vacancy.
 
-* The Technical Board SHALL then direct one of its members to notify
-  the Secretary of the DSF, in writing, of the nomination. The DSF
+* The Technical Board will notify the Secretary of the DSF, in writing, of the nomination. The DSF
   Board SHALL check the qualifications of the person nominated, and
-  the Secretary of the DSF SHALL notify the Technical Board of the
+  the Secretary of the DSF will notify the Technical Board of the
   result. If the DSF Board determines the nominated person is not
-  qualified, the nomination MUST be discarded.
+  qualified, the nomination must be discarded.
 
 * Otherwise, the Technical Board then SHALL vote on the question:
   "Shall this candidate fill the vacancy on the Technical Board?" As
@@ -441,10 +402,7 @@ process:
 Interaction of the Technical Board and the Django Security Team
 ---------------------------------------------------------------
 
-The Django Security Team SHALL have the following powers, and in the
-event of a conflict or contradiction between the exercise of the
-powers of the Technical Board and the exercise of these powers of the
-Django Security Team, the Django Security Team's powers SHALL prevail:
+The Django Security Team has the following powers:
 
 * To request a Merger merge code to fix a security issue being handled
   under Django's security process.
@@ -465,34 +423,12 @@ Django Security Team.
 Interaction of the Technical Board and other teams
 --------------------------------------------------
 
-The Django open-source project involves other teams with other tasks,
-some of which -- such as maintaining the infrastructure of the
-djangoproject.com website, and Django's continuous integration -- are
-technical in nature. Currently, those teams are largely
-self-governing.
+*See django/dsf-working-groups for other teams and working groups*
 
-Initially, the Technical Board SHALL NOT have binding authority over
-those teams, except as regards matters that are otherwise within the
-powers of the Technical Board, although the Technical Board's powers
-are explicitly constrained, as described above, with respect to the
-Django Security Team.
-
-No later than one month after the first election of the Technical
-Board has concluded, each team whose work is primarily technical in
-nature SHALL enter into discussion with the Technical Board regarding
-the future governance of that team. If that team, via its own current
-governance process, and the Technical Board, by vote, agree that that
-team should be placed under the governancee of the Technical Board,
-that team and the Technical Board SHALL then develop a process for
-bringing that team under the governance of the Technical Board and the
-manner in which the Technical Board will govern that team. Upon
-acceptance, by that team's own current governance process and by vote
-of the Technical Board, of the proposal, that team then SHALL come
-under the governance of the Technical Board, and the Technical Board
-SHALL have the power to govern that team accordingly.
-
-For teams which are not yet under, or which do not transition to, the
-governance of the Technical Board, the following shall apply:
+The Technical Board may oversee or have a liaison on various teams
+and working groups in the Django community. The team or working group
+may have powers delegated directly from the Steering Council. In all cases
+the following interactions should occur:
 
 * The Technical Board MAY make requests of those teams, and those
   teams SHOULD accommodate those requests when reasonable and
@@ -524,92 +460,47 @@ process as described in DEP 1, with modifications as described below.
    the Technical Board with a score of at least 4, rather than the
    usual 3.
 
-2. Once such a DEP reaches "accepted" status, the Technical Board MUST
+2. Once such a DEP reaches "accepted" status, the Technical Board will
    direct one of its members to notify the Secretary of the DSF, in
    writing, of the existence of an accepted DEP for changing the
    governance process.
 
 3. The DSF Board SHALL hold a vote, at its earliest convenience, on a
    motion to adopt the proposed change. If the DSF Board rejects the
-   motion, the governance process SHALL NOT change, and the Secretary
-   of the DSF SHALL notify the Technical Board, in writing, of the DSF
-   Board's objections to the proposal. The DEP then SHALL, as an
-   exception to the process described in DEP 1, be returned to draft
-   status. The DEP then MAY be revised and once again accepted by the
-   Technical Board and notified to the DSF Board.
+   motion, the governance process will not change, and the Secretary
+   of the DSF will notify the Technical Board, in writing, of the DSF
+   Board's objections to the proposal. The DEP then returns to draft
+   status. The DEP may be revised and restart the DEP approval process.
 
 4. If the DSF Board accepts the motion, the DSF Board and the
-   Technical Board SHALL then hold separate votes on the question of
+   Technical Board will then hold separate votes on the question of
    whether the proposed change is significant enough to require
    approval by the community at large. If both the DSF Board and the
    Technical Board determine that the proposal is not significant
-   enough to require such approval, the proposal then SHALL be adopted
-   and the DEP SHALL immediately begin implementation.
+   enough to require such approval, the proposal then will be adopted
+   and the DEP will immediately begin implementation.
 
 5. If the DSF Board and/or the Technical Board determine that the
    proposal is significant enough to require approval by the community
-   at large, the DSF Board SHALL immediately call a special
+   at large, the DSF Board will immediately call a special
    election. The qualifications of voters for the special election
-   SHALL be the same as those for elections of the Technical Board,
-   and all persons eligibble to vote for the Technical Board SHALL
-   automatically be eligible to vote in the special election. As with
-   elections of the Technical Board, there SHALL be a one-week period
-   of voter registration, during which prospective voters MAY apply to
-   the DSF Board for voting privileges. One week after that
+   will be the same as those for elections of the Technical Board,
+   and all persons eligibble to vote for the Technical Board will
+   automatically be eligible to vote in the special election. One week after that
    registration period closes, the special election will begin. Voting
-   SHALL be by secret ballot. Each voter SHALL be presented with a
+   will be by secret ballot. Each voter will be presented with a
    ballot containing a link to the DEP, and links to any associated
    materials, and the question: "Shall the change to Django's
    governance, indicated above, be adopted?" Voters MAY vote "Yes",
-   "No", or "Abstain" on the question. The election SHALL conclude one
-   week after it begins. The DSF Board SHALL then tally the votes and
+   "No", or "Abstain" on the question. The election will conclude one
+   week after it begins. The DSF Board will tally the votes and
    produce a summary, including the total number of votes cast and the
    number of votes for each option. If at least a plurality of votes
-   cast are for "Yes", the proposal then SHALL be adopted and the DEP
-   SHALL immediately begin implementation. If "Yes" does not achieve
-   at least a plurality of votes cast, the proposal then SHALL NOT be
-   adopted and the DEP SHALL, as an exception to the process described
-   in DEP 1, be returned to draft status. The DEP then MAY be revised
-   to begin this process anew.
-
-
-Adoption and implementation of this DEP
----------------------------------------
-
-Mere acceptance of this DEP SHALL NOT be sufficient to proceed to
-implementation. To fully adopt and implement this DEP, the following
-process SHALL be used:
-
-1. This DEP must be voted on by the current Django Core, and must
-   attain the required threshold in that vote (as currently specified,
-   4/5 of votes cast in favor).
-
-2. This DEP must be accepted by the current Django technical board
-   without veto, in accordance with the DEP process.
-
-3. As this DEP imposes significant new responsibilities on the DSF
-   Board, the DSF Board must vote to accept it.
-
-4. If the current Django technical board and the DSF Board agree, this
-   proposal may be put to a final vote by the membership of the DSF,
-   but such a vote is not an automatic requirement, and the current
-   Django technical board and the DSF Board may determine the
-   threshold for the proposal to pass, if they agree that such a vote
-   is required.
-
-Upon completion of the above steps, this DEP shall immediately take
-effect and become the governance process of the Django web framework:
-
-* Code push and package upload permissions will be revoked as
-  necessary.
-
-* The then-current set of Django Fellows will automatically become
-  both Mergers and Releasers.
-
-* The initial grant of the role of Django Core Developer will take
-  place, to the appropriate individuals.
-
-* An election of the Technical Board will automatically be triggered.
+   cast are for "Yes", the proposal then will be adopted and the DEP
+   will immediately begin implementation. If "Yes" does not achieve
+   at least a plurality of votes cast, the proposal then will not be
+   adopted and the DEP will return to to draft status. The DEP may be revised
+   and restart the DEP approval process.
 
 
 Motivation
