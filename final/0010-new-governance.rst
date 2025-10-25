@@ -27,59 +27,14 @@ DEP 0010: New governance for the Django project
 Abstract
 ========
 
-This is a proposal to reform the organization of the Django
-open-source project, by dissolving the current team of committers and
-replacing it with a new governance model.
-
-The following Q&A is informative, and describes the proposal in a
-general way; for full details, please see the "Specification" section
-below.
-
-
-What roles will there be in the project after this change?
-----------------------------------------------------------
-
-?
-
-
-How will code get added to Django?
-----------------------------------
-
-For smaller changes such as documentation, bugfixes and minor features,
-Mergers will use their judgment to determine if there's consensus that the
-change is good, and merge it if so. The Django Security
-Team can authorize the merge of code to fix security issues.
-
-For larger changes, the `new-features repo`_ should be used.
-
-
-Who decides when Django gets released?
---------------------------------------
-
-See `DEP 44`_.
-
-
-Who decides the technical direction of Django?
-----------------------------------------------
-
-See `new-features repo`_.
+This is a proposal to simplify the technical governance of the Django
+open-source project.
 
 Terminology
 ===========
 
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
-document are to be interpreted as described in `RFC 2119
-<https://www.ietf.org/rfc/rfc2119.txt>`_.
-
 For clarity, this DEP uses the following terms to refer to existing
 groups:
-
-* "Django Core": the set of people who have or have had permission to
-  push to <https://github.com/django/django/> or the previous
-  Subversion repository, or who have been members of the django-core
-  mailing list, the #django-core IRC channel, or identified as members
-  of "Django Core" on the djangoproject.com website.
 
 * "DSF" and "DSF Board": the Django Software Foundation and its Board
   of Directors, respectively.
@@ -95,6 +50,10 @@ groups:
 
 * "Django Forum": the discussion forum at `forum.djangoproject.com
   <https://forum.djangoproject.com/>`_.
+
+* "DSF Individual members": the group of people who are members of
+  the Django Software Foundation. `The current list can be found here
+  <https://www.djangoproject.com/foundation/individual-members/>`_.
 
 The following terms are used in this document to refer to types of
 changes made to Django's codebase:
@@ -118,65 +77,16 @@ releases of Django:
   a major release series and y is either 0, 1, or 2. For example,
   Django 3.1.0 is a Feature Release.
 
-* "Bugfix Release" means an x.y.z release of Django, where x.y.0 was a
-  Feature Release, and z is not 0. For example, Django 3.1.4 is a
-  Bugfix Release. A Bugfix Release is "for" a particular Feature
-  Release if, when considering the version number in the format x.y.z,
-  x and y have the same values for the Bugfix Release as they do for
-  the Feature Release. For example, Django 3.1.4 is a Bugfix Release
-  for the Django 3.1.0 Feature Release.
-
 * "Security Release" means a Bugfix Release which included a fix for a
   security issue in Django being handled under `Django's security
   process <https://www.djangoproject.com/security/>`_.
 
-* A member "in good standing" of a venue for discussing the technical
-  direction of Django is any member of that venue whose participation
-  privileges have not been revoked, either by moderators of that
-  venue, by the operator of the venue if operated by a third-party
-  service or administrator, or by the Code of Conduct committee of the
-  DSF.
 
 Specification
 =============
 
-This section and its sub-sections are normative.
-
-The current governance of the Django project will be replaced. To
-accomplish this, the following steps will be taken:
-
-1. Push access to <https://github.com/django/django/> SHALL be removed
-   from all persons not designated as Mergers. Access to upload
-   releases of Django to the Python Package Index and to
-   djangoproject.com SHALL be removed from all persons not designated
-   as Releasers.
-
-2. The django-core mailing list and the #django-core IRC channel SHALL
-   be closed, though archives accessible to the former members MAY be
-   maintained.
-
-3. The new roles described below SHALL be implemented appropriately.
-
-4. The existing roles repurposed below SHALL be repurposed as
-   described.
-
-The following new roles are added:
-
-* Merger
-
-* Releaser
-
-* Triage & Review Team
-
-The following roles are repurposed:
-
-* Django Core Developer
-
-* Technical Board
-
-
-Repurposed role: Technical Board
---------------------------------
+Technical Board role
+--------------------
 
 The Technical Board provides oversight of Django's development and
 release process, assists in setting the direction of feature
@@ -193,7 +103,7 @@ The powers of the Technical Board are:
 
 * To create/update technical teams
 
-The Technical Board SHALL consist initially of five members. To be
+The Technical Board consists of five members. To be
 qualified for election to the Technical Board, see `DEP 12`_.
 
 
@@ -241,7 +151,7 @@ If the Technical Board can't arrive at an agreement, a formal vote may be invoke
 Voting process of the Technical Board
 -------------------------------------
 
-When a vote of the Technical Board is held, they SHALL use the
+When a vote of the Technical Board is held, they use the
 following process:
 
 1. A proposal is proposed to the Steering Council in the form of a yes
@@ -267,11 +177,11 @@ Votes of the Steering Council are binding, meaning all Django contributors must 
 Process of selecting the Technical Board
 ----------------------------------------
 
-The initial Technical Board shall be made up of the final technical
-board elected under Django's prior governance process.
+Whenever an election of the Technical Board is triggered, the following limits are put in place until the election process is complete:
 
-Whenever an election of the Technical Board is triggered, via any of
-the mechanisms described in this document, the Technical Board will be limited in the following ways until the election is complete:
+* Any appointments to the roles of Merger and/or Releaser, other than
+  of Django Fellows, are be temporary, and will require confirmation by
+  the newly elected Technical Board.
 
 * The Technical Board must not accept any DEPs or changes to DEPs, and
   must not change the governance process described in this document.
@@ -279,54 +189,50 @@ the mechanisms described in this document, the Technical Board will be limited i
 Elections of the Technical Board are triggered by any of the following
 events:
 
-* One week after the actual release of
-  the final Feature Release of a Major Release Series of Django, if no
+
+* The final Feature Release of a Major Release Series of Django if no
   election of the Technical Board has yet occurred during that Major
   Release Series.
 
-* When the current members contains less than three members who were
-  elected in the most recent election of the Technical Board.
+* The resignation or another event that leaves Technical Board with
+  fewer than three elected members. This can happen when the rest of
+  the Technical Board would be replacement members via appointments.
 
-* At any other time, if the Technical Board votes to produce an Accept
-  outcome on the question "Shall an election of the Technical Board
-  occur?"
+* The Technical Board votes to hold an election.
 
-Only Individual members of the DSF are
-eligible to vote in elections of the Technical Board.
+Only Individual members of the DSF are eligible to vote in elections of
+the Technical Board.
 
 The privilege to vote in elections of the Technical
 Board may be revoked at any time by one of the following:
 
 * The Code of Conduct committee of the DSF for a violation of the Django
-Code of Conduct
+  Code of Conduct.
 
-* The Code of Conduc Committee has deemed someone ineligible to participate in the community spaces of the Django project
+* The Code of Conduct Committee has deemed someone ineligible to participate
+  in the community spaces of the Django project.
 
-The roll of voters for elections of the Technical Board SHALL be
-maintained by the DSF Board and will act as a neutral arbiter and
-judge of Technical Board elections. Members of the DSF Board may stand
+
+The DSF shall manage the election process. Members of the DSF Board can stand
 for election to the Technical Board if qualified, but any DSF Board
 member who is a current member of the Technical Board or a candidate
 in an upcoming election must abstain from taking part in the DSF
-Board's oversight of that Technical Board election. The DSF Board may
-delegate aspects of its oversight responsibilities (such as the
-technical details of constructing registration and voting forms),
-but only the DSF Board may ratify the results of a
-Technical Board election.
+Board's oversight of that Technical Board election. The DSF Board can
+delegate some responsibilities, but only the DSF Board can ratify the
+results of a election.
 
 The process of electing a Technical Board is as follows:
 
-1. When an election is triggered, the Technical Board SHALL
-   direct one of its members to notify the Secretary of the DSF, in
+1. When an election is triggered, the Technical Board will notify the Secretary of the DSF, in
    writing, of the triggering of the election, and the condition which
    triggered it. The Secretary of the DSF then will post to the
    Django Forum and other appropriate venues to announce the election and its timeline.
 
 2. As soon as the election is announced, the DSF Board shall begin a
    period of candidate registration. Any qualified person may register as a candidate; the
-   candidate registration form and roster of candidates SHALL be
-   maintained by the DSF Board, and candidates MUST provide evidence
-   of their qualifications as part of registration. The DSF Board MAY
+   candidate registration form and roster of candidates will be
+   maintained by the DSF Board, and candidates must provide evidence
+   of their qualifications as part of registration. The DSF Board can
    challenge and reject the registration of candidates it believes do
    not meet the qualifications of members of the Technical Board, or
    who it believes are registering in bad faith.
@@ -349,16 +255,15 @@ The process of electing a Technical Board is as follows:
    candidate. This summary will be ratified by a majority vote of the
    DSF Board, then posted by the Secretary of the DSF to the
    the Django Forum and any other appropriate venues. The five
-   candidates with the highest vote totals SHALL immediately become
+   candidates with the highest vote totals will immediately become
    the new Technical Board.
 
-Once elected, a member of the Technical Board MAY be removed in either
-of two ways:
+A member of the Technical Board can be removed in the following ways:
 
 * They become ineligible due to actions of the Code of Conduct
   committee of the DSF. If this occurs, the affected person
   immediately ceases to be a member of the Technical Board. If that
-  person's ineligibiliity ends at a later date, they may become a
+  person's ineligibility ends at a later date, they may become a
   candidate for the Technical Board again in an election occurring
   after that date.
 
@@ -366,37 +271,32 @@ of two ways:
   member of the Technical Board. This determination must be made
   jointly by the other members of the Technical Board, and the DSF
   Board. A valid determination of ineligibility requires that all
-  other members of the Technical Board vote "+1" on the question
-  "Shall this person be declared ineligible for the Technical Board?",
-  and that all members of the DSF Board who can vote on the issue (the
-  affected person, if a DSF Board member, MUST NOT vote) vote "yes" on
+  other members of the Technical Board vote to declare the affected person
+  ineligible and that all members of the DSF Board who can vote on the issue (the
+  affected person, if a DSF Board member, can not vote) vote "yes" on
   a motion that the person in question is ineligible.
 
-A member of the Technical Board MAY resign from the Technical Board by
-notifying the other members of the Technical Board of their intent to
-resign.
+* A member of the Technical Board resigns from the Technical Board by
+  notifying the other members of the Technical Board of their intent to
+  resign.
 
 The Technical Board should try to fill a vacancy on the
-Technical Board. To do so, the other members of the Technical Board
-(and the departing member(s), if eligible and willing), SHALL use this
-process:
+Technical Board. This may involve the departing member if they are eligible
+and willing. The process is as follows:
 
 * Any member of the Technical Board, including an otherwise eligible
   but departing member, may nominate a candidate to fill a vacancy.
 
 * The Technical Board will notify the Secretary of the DSF, in writing, of the nomination. The DSF
-  Board SHALL check the qualifications of the person nominated, and
+  Board will check the qualifications of the person nominated, and
   the Secretary of the DSF will notify the Technical Board of the
   result. If the DSF Board determines the nominated person is not
   qualified, the nomination must be discarded.
 
-* Otherwise, the Technical Board then SHALL vote on the question:
-  "Shall this candidate fill the vacancy on the Technical Board?" As
-  an exception to the Technical Board voting process described above,
-  this vote SHALL have only a single one-week voting period, SHALL
-  have an outcome of "Accept" if all eligible voting members of the
-  Technical Board vote "+1" in that period, and SHALL have an
-  outcome of "Reject" otherwise.
+* A qualified nominee will fill the vacancy if the Technical Board votes
+  to appoint the nominee. As an exception to the Technical Board voting
+  process described above, this vote must be completed within one-week
+  and it must be unanimous approval.
 
 
 Interaction of the Technical Board and the Django Security Team
@@ -411,12 +311,12 @@ The Django Security Team has the following powers:
   fix a security issue being handled under Django's security process.
 
 In the event that the Technical Board feels the Django Security Team
-has used the above powers inappropriately, the Technical Board MAY
+has used the above powers inappropriately, the Technical Board may
 appeal to the DSF Board to mediate the issue. Any member of the DSF
 Board who is also a member of the Django Security Team or of the
-Technical Board MUST abstain from participation in the DSF Board's
+Technical Board will abstain from participation in the DSF Board's
 decision-making in such mediation. The decision of the DSF Board in
-the dispute SHALL be binding on both the Technical Board and the
+the dispute will be binding on both the Technical Board and the
 Django Security Team.
 
 
@@ -430,21 +330,21 @@ and working groups in the Django community. The team or working group
 may have powers delegated directly from the Steering Council. In all cases
 the following interactions should occur:
 
-* The Technical Board MAY make requests of those teams, and those
-  teams SHOULD accommodate those requests when reasonable and
+* The Technical Board may make requests of those teams, and those
+  teams should accommodate those requests when reasonable and
   practicable.
 
-* Those teams MAY make requests of the Technical Board, and the
-  Technical Board SHOULD accommodate those requests when reasonable
+* Those teams may make requests of the Technical Board, and the
+  Technical Board should accommodate those requests when reasonable
   and practicable, provided that accommodating the request falls
   within the powers of the Technical Board.
 
 In the event of a dispute between the Technical Board and a team not
 under the governance of the Technical Board, the DSF Board shall serve
 as mediator. Any member of the DSF Board who is also a member of the
-Technical Board or of the affected team MUST abstrain from the DSF
+Technical Board or of the affected team will abstain from the DSF
 Board's decision-making in such mediation. The decision of the DSF
-Board in the dispute SHALL be binding on both the Technical Board and
+Board in the dispute will be binding on both the Technical Board and
 the affected team.
 
 
@@ -465,7 +365,7 @@ process as described in DEP 1, with modifications as described below.
    writing, of the existence of an accepted DEP for changing the
    governance process.
 
-3. The DSF Board SHALL hold a vote, at its earliest convenience, on a
+3. The DSF Board will hold a vote on a
    motion to adopt the proposed change. If the DSF Board rejects the
    motion, the governance process will not change, and the Secretary
    of the DSF will notify the Technical Board, in writing, of the DSF
@@ -485,13 +385,13 @@ process as described in DEP 1, with modifications as described below.
    at large, the DSF Board will immediately call a special
    election. The qualifications of voters for the special election
    will be the same as those for elections of the Technical Board,
-   and all persons eligibble to vote for the Technical Board will
+   and all persons eligible to vote for the Technical Board will
    automatically be eligible to vote in the special election. One week after that
    registration period closes, the special election will begin. Voting
    will be by secret ballot. Each voter will be presented with a
    ballot containing a link to the DEP, and links to any associated
    materials, and the question: "Shall the change to Django's
-   governance, indicated above, be adopted?" Voters MAY vote "Yes",
+   governance, indicated above, be adopted?" Voters may vote "Yes",
    "No", or "Abstain" on the question. The election will conclude one
    week after it begins. The DSF Board will tally the votes and
    produce a summary, including the total number of votes cast and the
