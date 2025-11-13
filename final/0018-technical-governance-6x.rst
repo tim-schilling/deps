@@ -1,8 +1,8 @@
 =====================================================
-DEP 0017: Technical governance for the Django project
+DEP 0018: Technical governance for the Django project
 =====================================================
 
-:DEP: 0017
+:DEP: 0018
 :Author: Carlton Gibson, Emma Delescolle, Frank Gibson, Lily Acorn,
   Tim Schilling
 :Implementation Team: Carlton Gibson, Emma Delescolle, Frank Gibson,
