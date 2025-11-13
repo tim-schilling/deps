@@ -289,13 +289,9 @@ Only Individual members of the DSF are eligible to vote in elections
 of the Steering Council.
 
 The privilege to vote in elections of the Steering Council may be
-revoked at any time by one of the following:
-
-* The Code of Conduct committee of the DSF for a violation of the
-  Django Code of Conduct.
-
-* The Code of Conduct Committee has deemed someone ineligible to
-  participate in the community spaces of the Django project.
+revoked at any time by the Code of Conduct committee of the DSF for
+a violation of the Django Code of Conduct where they have been deemed
+ineligible to participate in the community spaces of the Django project.
 
 Steering Council election process
 *********************************
