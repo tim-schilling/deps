@@ -32,6 +32,8 @@ groups:
 * "DSF" and "DSF Board": the Django Software Foundation and its Board
   of Directors, respectively.
 
+* "Steering Council": See `Steering Council role`_ for details.
+
 * "DSF Individual members": the group of people who are members of
   the Django Software Foundation. `The current list can be found here
   <https://www.djangoproject.com/foundation/individual-members/>`_.
@@ -82,6 +84,10 @@ releases of Django:
 * "Feature Release" means an x.y.0 release of Django, where x.0 began
   a major release series and y is either 0, 1, or 2. For example,
   Django 3.1.0 is a Feature Release.
+
+* "Bugfix Release" means an x.y.z release of Django, where z is not 0.
+  For example, Django 3.1.4 is a Bugfix Release, while Django 3.1.0
+  is a Feature Release.
 
 * "Security Release" means a Bugfix Release which included a fix for a
   security issue in Django being handled under `Django's security
