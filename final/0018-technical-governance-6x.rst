@@ -94,24 +94,34 @@ Specification
 How Django is developed
 -----------------------
 
-Any person who signs the contributor CLA can write code for Django. Everyone is encouraged to open tickets, triage tickets and perform code reviews.
+Any person who signs the contributor CLA can write code for Django.
+Everyone is encouraged to open tickets, triage tickets and perform code
+reviews.
 
-Commits can only be merged in by the `Mergers Team`_. A Merger can merge their own commits if it's been reviewed by another Merger, the `Triage & Review Team`_ or `Security Team`_. Members of the `Releasers Team`_ can also merge commits when they are related to releases.
+Commits can only be merged in by the `Mergers Team`_. A Merger can merge
+their own commits if it's been reviewed by another Merger, the
+`Triage & Review Team`_ or `Security Team`_. Members of the
+`Releasers Team`_ can also merge commits when they are related to
+releases.
 
-Changes that fail to reach "minor consensus" can be escalated to the Steering Council for a final decision to merge.
+Changes that fail to reach "minor consensus" can be escalated to the
+Steering Council for a final decision to merge.
 
 
 How Django's technical direction is determined
 ----------------------------------------------
 
-Everyone is encouraged to propose and provide feedback on new features for Django at any time on the new-features repo.
+Everyone is encouraged to propose and provide feedback on new features
+for Django at any time on the new-features repo.
 
-For features which qualify as a Major Change, proposers may be asked to use the DEP process.
+For features which qualify as a Major Change, proposers may be asked to
+use the DEP process.
 
-If discussion of a Minor Change has failed to produce consensus, a member may ask the
-Steering Council to make a decision.
+If discussion of a Minor Change has failed to produce consensus, a
+member may ask the Steering Council to make a decision.
 
-Vetoed discussions and features are eligible to be revisited after six months.
+Vetoed discussions and features are eligible to be revisited after six
+months.
 
 
 How Django is released
@@ -121,7 +131,9 @@ Only members of the `Releasers Team`_ may perform a release.
 
 Django follows the time-based release schedule, as outlined in `DEP 44`_.
 
-The `Security Team`_ may request a Security Release of Django. This should be performed at or as close as is practicable to the time of release requested by the `Security Team`_.
+The `Security Team`_ may request a Security Release of Django. This
+should be performed at or as close as is practicable to the time of
+release requested by the `Security Team`_.
 
 
 Steering Council role
@@ -148,26 +160,29 @@ Steering Council's goals
 ++++++++++++++++++++++++
 
 The Council's goal is twofold - to safeguard big decisions that affect
-Django projects at a fundamental level, and to help shepherd the project's
-future direction.
+Django projects at a fundamental level, and to help shepherd the
+project's future direction.
 
 While the Council should not define this direction entirely by itself,
-it should be the catalyst within the community for doing so - as such, it is
-expected for Council members to actively participate in engaging with the
-community, canvassing for ideas about big new features or directions to take
-the framework, and reporting back to the community and the DSF Board on these
-ideas and if the Council believes they should be followed.
+it should be the catalyst within the community for doing so - as such,
+it is expected for Council members to actively participate in engaging
+with the community, canvassing for ideas about big new features or
+directions to take the framework, and reporting back to the community
+and the DSF Board on these ideas and if the Council believes they
+should be followed.
 
 
 Decision making process of the Steering Council
 +++++++++++++++++++++++++++++++++++++++++++++++
 
-When asked to make a technical decision, the Steering Council should first discuss this
-amongst themselves. If there's agreement on a course of action, a single member will
-respond the forum, ticket, or new-features repo on behalf of the Steering Council. It
-may optionally include a dissenting opinion if someone wishes to include one.
+When asked to make a technical decision, the Steering Council should
+first discuss this amongst themselves. If there's agreement on a course
+of action, a single member will respond the forum, ticket, or
+new-features repo on behalf of the Steering Council. It may optionally
+include a dissenting opinion if someone wishes to include one.
 
-If the Steering Council can't arrive at an agreement, a formal vote may be invoked.
+If the Steering Council can't arrive at an agreement, a formal vote may
+be invoked.
 
 Voting process of the Steering Council
 ++++++++++++++++++++++++++++++++++++++
@@ -186,13 +201,19 @@ following process:
    * Veto: the "no" option of the question is taken, and the proposal
      is subject to the waiting period for reconsideration.
 
-3. Members of the Steering Council will vote privately or respond with a timeline to vote within a week.
+3. Members of the Steering Council will vote privately or respond with
+   a timeline to vote within a week.
 
-4. To be accepted, the proposal must have a majority of Steering Council members voting yes.
+4. To be accepted, the proposal must have a majority of Steering
+   Council members voting yes.
 
-5. The outcome of the proposal will be published on the forum, ticket, or new-features repo. It should contain the reasoning for the decision, the concerns considered and optionally any dissenting opinions.
+5. The outcome of the proposal will be published on the forum, ticket,
+   or new-features repo. It should contain the reasoning for the
+   decision, the concerns considered and optionally any dissenting
+   opinions.
 
-Votes of the Steering Council are binding, meaning all Django contributors must abide by the decision.
+Votes of the Steering Council are binding, meaning all Django
+contributors must abide by the decision.
 
 
 Steering Council eligibility
@@ -202,102 +223,109 @@ To be qualified for the Steering Council, a person must demonstrate:
 
 * A history of substantive contributions to Django or the Django
   ecosystem. This history must begin at least 18 months prior to the
-  individual's candidacy for the Steering Council, and include substantive
-  contributions in at least two of these bullet points:
+  individual's candidacy for the Steering Council, and include
+  substantive contributions in at least two of these bullet points:
 
-  * Code contributions on Django projects or major third-party packages in
-    the Django ecosystem
+  * Code contributions on Django projects or major third-party packages
+    in the Django ecosystem
 
   * Reviewing pull requests and/or triaging Django project tickets
 
   * Documentation, tutorials or blog posts
 
-  * Discussions about Django on the django-developers mailing list or the
-    Django Forum
+  * Discussions about Django on the django-developers mailing list or
+    the Django Forum
 
   * Running Django-related events or user groups
 
 * A history of engagement with the direction and future of Django.
-  This does not need to be recent, but candidates who have not engaged in the
-  past three years must still demonstrate an understanding of Django's changes
-  and direction within those three years.
+  This does not need to be recent, but candidates who have not engaged
+  in the past three years must still demonstrate an understanding of
+  Django's changes and direction within those three years.
 
 
 Steering Council elections
 ++++++++++++++++++++++++++
 
-Whenever an election of the Steering Council is triggered, the following limits are put in place until the election process is complete:
+Whenever an election of the Steering Council is triggered, the
+following limits are put in place until the election process is
+complete:
 
 * Any appointments to the roles of Merger and/or Releaser, other than
-  of Django Fellows, are be temporary, and will require confirmation by
-  the newly elected Steering Council.
+  of Django Fellows, are be temporary, and will require confirmation
+  by the newly elected Steering Council.
 
-* The Steering Council must not accept any DEPs or changes to DEPs, and
-  must not change the governance process described in this document.
+* The Steering Council must not accept any DEPs or changes to DEPs,
+  and must not change the governance process described in this
+  document.
 
 Steering Council election triggers
 **********************************
 
-Elections of the Steering Council are triggered by any of the following
-events:
+Elections of the Steering Council are triggered by any of the
+following events:
 
-* The final Feature Release of a Major Release Series of Django if no
-  election of the Steering Council has yet occurred during that Major
-  Release Series.
+* The final Feature Release of a Major Release Series of Django if
+  no election of the Steering Council has yet occurred during that
+  Major Release Series.
 
 * The resignation or another event that leaves Steering Council with
   fewer than three elected members. This can happen when the rest of
-  the Steering Council would be replacement members via appointments.
+  the Steering Council would be replacement members via
+  appointments.
 
 * The Steering Council votes to hold an election.
 
 Steering Council voting eligibility
 ***********************************
 
-Only Individual members of the DSF are eligible to vote in elections of
-the Steering Council.
+Only Individual members of the DSF are eligible to vote in elections
+of the Steering Council.
 
-The privilege to vote in elections of the Steering Council may be revoked at any time by one of the following:
+The privilege to vote in elections of the Steering Council may be
+revoked at any time by one of the following:
 
-* The Code of Conduct committee of the DSF for a violation of the Django
-  Code of Conduct.
+* The Code of Conduct committee of the DSF for a violation of the
+  Django Code of Conduct.
 
-* The Code of Conduct Committee has deemed someone ineligible to participate
-  in the community spaces of the Django project.
+* The Code of Conduct Committee has deemed someone ineligible to
+  participate in the community spaces of the Django project.
 
 Steering Council election process
 *********************************
 
-The DSF shall manage the election process. Members of the DSF Board can stand
-for election to the Steering Council if qualified, but any DSF Board
-member who is a current member of the Steering Council or a candidate
-in an upcoming election must abstain from taking part in the DSF
-Board's oversight of that Steering Council election. The DSF Board can
-delegate some responsibilities, but only the DSF Board can ratify the
-results of a election.
+The DSF shall manage the election process. Members of the DSF Board
+can stand for election to the Steering Council if qualified, but any
+DSF Board member who is a current member of the Steering Council or a
+candidate in an upcoming election must abstain from taking part in the
+DSF Board's oversight of that Steering Council election. The DSF Board
+can delegate some responsibilities, but only the DSF Board can ratify
+the results of a election.
 
 The process of electing a Steering Council is as follows:
 
-1. When an election is triggered, the Steering Council will notify the Secretary of the DSF, in
-   writing, of the triggering of the election, and the condition which
-   triggered it. The Secretary of the DSF then will post to the
-   Django Forum and other appropriate venues to announce the election and its timeline.
+1. When an election is triggered, the Steering Council will notify the
+   Secretary of the DSF, in writing, of the triggering of the
+   election, and the condition which triggered it. The Secretary of
+   the DSF then will post to the Django Forum and other appropriate
+   venues to announce the election and its timeline.
 
 2. As soon as the election is announced, the DSF Board shall begin a
-   period of candidate registration. Any qualified person may register as a candidate; the
-   candidate registration form and roster of candidates will be
-   maintained by the DSF Board, and candidates must provide evidence
-   of their qualifications as part of registration. The DSF Board can
-   challenge and reject the registration of candidates it believes do
-   not meet the qualifications of members of the Steering Council, or
-   who it believes are registering in bad faith.
+   period of candidate registration. Any qualified person may register
+   as a candidate; the candidate registration form and roster of
+   candidates will be maintained by the DSF Board, and candidates must
+   provide evidence of their qualifications as part of registration.
+   The DSF Board can challenge and reject the registration of
+   candidates it believes do not meet the qualifications of members of
+   the Steering Council, or who it believes are registering in bad
+   faith.
 
 3. Registration of candidates will close two weeks after it has
    opened. One week after registration of candidates closes, the
    Secretary of the DSF will publish the roster of candidates to the
-   the Django Forum and any other appropriate venues, and the
-   election will begin. The DSF Board will provide a voting form
-   accessible to registered voters.
+   the Django Forum and any other appropriate venues, and the election
+   will begin. The DSF Board will provide a voting form accessible to
+   registered voters.
 
 4. Voting will be by secret ballot. Each voter will be presented with
    a ballot containing the roster of candidates, and any relevant
@@ -305,18 +333,18 @@ The process of electing a Steering Council is as follows:
    voter may vote for up to five candidates on the ballot.
 
 5. The election will conclude one week after it begins. The DSF Board
-   will tally the votes and produce a summary, including the
-   total number of votes cast and the number received by each
-   candidate. This summary will be ratified by a majority vote of the
-   DSF Board, then posted by the Secretary of the DSF to the
-   the Django Forum and any other appropriate venues. The five
-   candidates with the highest vote totals will immediately become
-   the new Steering Council.
+   will tally the votes and produce a summary, including the total
+   number of votes cast and the number received by each candidate.
+   This summary will be ratified by a majority vote of the DSF Board,
+   then posted by the Secretary of the DSF to the the Django Forum and
+   any other appropriate venues. The five candidates with the highest
+   vote totals will immediately become the new Steering Council.
 
 Removing a single Steering Council member
 *****************************************
 
-A member of the Steering Council can be removed in the following ways:
+A member of the Steering Council can be removed in the following
+ways:
 
 * They become ineligible due to actions of the Code of Conduct
   committee of the DSF. If this occurs, the affected person
@@ -329,58 +357,62 @@ A member of the Steering Council can be removed in the following ways:
   member of the Steering Council. This determination must be made
   jointly by the other members of the Steering Council, and the DSF
   Board. A valid determination of ineligibility requires that all
-  other members of the Steering Council vote to declare the affected person
-  ineligible and that all members of the DSF Board who can vote on the issue (the
-  affected person, if a DSF Board member, can not vote) vote "yes" on
-  a motion that the person in question is ineligible.
+  other members of the Steering Council vote to declare the affected
+  person ineligible and that all members of the DSF Board who can
+  vote on the issue (the affected person, if a DSF Board member, can
+  not vote) vote "yes" on a motion that the person in question is
+  ineligible.
 
-* A member of the Steering Council resigns from the Steering Council by
-  notifying the other members of the Steering Council of their intent to
-  resign.
+* A member of the Steering Council resigns from the Steering Council
+  by notifying the other members of the Steering Council of their
+  intent to resign.
 
-The Steering Council should try to fill a vacancy on the
-Steering Council. This may involve the departing member if they are eligible
+The Steering Council should try to fill a vacancy on the Steering
+Council. This may involve the departing member if they are eligible
 and willing. The process is as follows:
 
-* Any member of the Steering Council, including an otherwise eligible
-  but departing member, may nominate a candidate to fill a vacancy.
+* Any member of the Steering Council, including an otherwise
+  eligible but departing member, may nominate a candidate to fill a
+  vacancy.
 
-* The Steering Council will notify the Secretary of the DSF, in writing, of the nomination. The DSF
-  Board will check the qualifications of the person nominated, and
-  the Secretary of the DSF will notify the Steering Council of the
-  result. If the DSF Board determines the nominated person is not
-  qualified, the nomination must be discarded.
+* The Steering Council will notify the Secretary of the DSF, in
+  writing, of the nomination. The DSF Board will check the
+  qualifications of the person nominated, and the Secretary of the
+  DSF will notify the Steering Council of the result. If the DSF
+  Board determines the nominated person is not qualified, the
+  nomination must be discarded.
 
-* A qualified nominee will fill the vacancy if the Steering Council votes
-  to appoint the nominee. As an exception to the Steering Council voting
-  process described above, this vote must be completed within one-week
-  and it must be unanimous approval.
+* A qualified nominee will fill the vacancy if the Steering Council
+  votes to appoint the nominee. As an exception to the Steering
+  Council voting process described above, this vote must be completed
+  within one-week and it must be unanimous approval.
 
 Removing the entire Steering Council
 ************************************
 
-Any Django Software Foundation individual member may make a public statement
-of no-confidence in the Steering Council by identifying a material breach of
-their duties as defined in the technical governance. Upon seconding by another
-individual member of the DSF the DSF Board SHALL no later than the next
-scheduled board meeting evaluate the merits of the statement of
-no-confidence.
+Any Django Software Foundation individual member may make a public
+statement of no-confidence in the Steering Council by identifying a
+material breach of their duties as defined in the technical governance.
+Upon seconding by another individual member of the DSF the DSF Board
+SHALL no later than the next scheduled board meeting evaluate the
+merits of the statement of no-confidence.
 
-If the statement is found to be accurate and correct the Board shall inform
-the Steering Council of the breach and provide 2 weeks to rectify said
-breach. If the Steering Council fails to rectify the breach in the time
-allotted, a new Steering Council election will be triggered. Current members
-of the Steering Council may run in the new election.
+If the statement is found to be accurate and correct the Board shall
+inform the Steering Council of the breach and provide 2 weeks to
+rectify said breach. If the Steering Council fails to rectify the
+breach in the time allotted, a new Steering Council election will be
+triggered. Current members of the Steering Council may run in the new
+election.
 
 Technical teams
 ---------------
 
 The Steering Council and DSF Board delegate certain responsibilities
-and powers to various teams. These teams can be created without changes
-to the technical governance document.
+and powers to various teams. These teams can be created without
+changes to the technical governance document.
 
-To see the list of technical teams and the process of adding new technical
-teams, please see the `django/dsf-working-groups repo`_.
+To see the list of technical teams and the process of adding new
+technical teams, please see the `django/dsf-working-groups repo`_.
 
 
 Interaction of the Steering Council and the Security Team
@@ -388,28 +420,28 @@ Interaction of the Steering Council and the Security Team
 
 The `Security Team`_ has the following powers:
 
-* To request a Merger merge code to fix a security issue being handled
-  under Django's security process.
+* To request a Merger merge code to fix a security issue being
+  handled under Django's security process.
 
 * To request a Releaser issue a release of Django containing code to
-  fix a security issue being handled under Django's security process.
+  fix a security issue being handled under Django's security
+  process.
 
-In the event that the Steering Council feels the Security Team
-has used the above powers inappropriately, the Steering Council may
-appeal to the DSF Board to mediate the issue. Any member of the DSF
-Board who is also a member of the Security Team or of the
-Steering Council will abstain from participation in the DSF Board's
-decision-making in such mediation. The decision of the DSF Board in
-the dispute will be binding on both the Steering Council and the
-Security Team.
+In the event that the Steering Council feels the Security Team has
+used the above powers inappropriately, the Steering Council may appeal
+to the DSF Board to mediate the issue. Any member of the DSF Board who
+is also a member of the Security Team or of the Steering Council will
+abstain from participation in the DSF Board's decision-making in such
+mediation. The decision of the DSF Board in the dispute will be
+binding on both the Steering Council and the Security Team.
 
 
 Interaction of the Steering Council and other teams
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The Steering Council may oversee or have a liaison on various teams
-and working groups in the Django community. In all cases
-the following interactions should occur:
+and working groups in the Django community. In all cases the following
+interactions should occur:
 
 * The Steering Council may make requests of those teams, and those
   teams should accommodate those requests when reasonable and
@@ -421,36 +453,36 @@ the following interactions should occur:
   within the powers of the Steering Council.
 
 In the event of a dispute between the Steering Council and a team,
-the DSF Board shall serve as mediator. Any member of the DSF Board
-who is also a member of the Steering Council or of the affected team
-will abstain from the DSF Board's decision-making in such mediation.
-The decision of the DSF Board in the dispute will be binding on both
-the Steering Council and the affected team.
+the DSF Board shall serve as mediator. Any member of the DSF Board who
+is also a member of the Steering Council or of the affected team will
+abstain from the DSF Board's decision-making in such mediation. The
+decision of the DSF Board in the dispute will be binding on both the
+Steering Council and the affected team.
 
 
 Changing this governance process
 --------------------------------
 
-Changes to this governance process shall be treated initially as Major
-Changes to Django, and as such shall require the use of the DEP
+Changes to this governance process shall be treated initially as
+Major Changes to Django, and as such shall require the use of the DEP
 process as described in DEP 1, with modifications as described below.
 
 1. To reach the "accepted" state, a DEP proposing changes to this
-   governance process must receive an outcome of "Accept" in a vote of
-   the Steering Council with a score of at least 4, rather than the
-   usual 3.
+   governance process must receive an outcome of "Accept" in a vote
+   of the Steering Council with a score of at least 4, rather than
+   the usual 3.
 
-2. Once such a DEP reaches "accepted" status, the Steering Council will
-   direct one of its members to notify the Secretary of the DSF, in
-   writing, of the existence of an accepted DEP for changing the
+2. Once such a DEP reaches "accepted" status, the Steering Council
+   will direct one of its members to notify the Secretary of the DSF,
+   in writing, of the existence of an accepted DEP for changing the
    governance process.
 
-3. The DSF Board will hold a vote on a
-   motion to adopt the proposed change. If the DSF Board rejects the
-   motion, the governance process will not change, and the Secretary
-   of the DSF will notify the Steering Council, in writing, of the DSF
-   Board's objections to the proposal. The DEP then returns to draft
-   status. The DEP may be revised and restart the DEP approval process.
+3. The DSF Board will hold a vote on a motion to adopt the proposed
+   change. If the DSF Board rejects the motion, the governance process
+   will not change, and the Secretary of the DSF will notify the
+   Steering Council, in writing, of the DSF Board's objections to the
+   proposal. The DEP then returns to draft status. The DEP may be
+   revised and restart the DEP approval process.
 
 4. If the DSF Board accepts the motion, the DSF Board and the
    Steering Council will then hold separate votes on the question of
@@ -461,38 +493,40 @@ process as described in DEP 1, with modifications as described below.
    and the DEP will immediately begin implementation.
 
 5. If the DSF Board and/or the Steering Council determine that the
-   proposal is significant enough to require approval by the community
-   at large, the DSF Board will immediately call a special
+   proposal is significant enough to require approval by the
+   community at large, the DSF Board will immediately call a special
    election. The qualifications of voters for the special election
    will be the same as those for elections of the Steering Council,
    and all persons eligible to vote for the Steering Council will
-   automatically be eligible to vote in the special election. One week after that
-   registration period closes, the special election will begin. Voting
-   will be by secret ballot. Each voter will be presented with a
-   ballot containing a link to the DEP, and links to any associated
-   materials, and the question: "Shall the change to Django's
-   governance, indicated above, be adopted?" Voters may vote "Yes",
-   "No", or "Abstain" on the question. The election will conclude one
-   week after it begins. The DSF Board will tally the votes and
-   produce a summary, including the total number of votes cast and the
-   number of votes for each option. If at least a plurality of votes
-   cast are for "Yes", the proposal then will be adopted and the DEP
-   will immediately begin implementation. If "Yes" does not achieve
-   at least a plurality of votes cast, the proposal then will not be
-   adopted and the DEP will return to to draft status. The DEP may be revised
-   and restart the DEP approval process.
+   automatically be eligible to vote in the special election. One
+   week after that registration period closes, the special election
+   will begin. Voting will be by secret ballot. Each voter will be
+   presented with a ballot containing a link to the DEP, and links to
+   any associated materials, and the question: "Shall the change to
+   Django's governance, indicated above, be adopted?" Voters may vote
+   "Yes", "No", or "Abstain" on the question. The election will
+   conclude one week after it begins. The DSF Board will tally the
+   votes and produce a summary, including the total number of votes
+   cast and the number of votes for each option. If at least a
+   plurality of votes cast are for "Yes", the proposal then will be
+   adopted and the DEP will immediately begin implementation. If
+   "Yes" does not achieve at least a plurality of votes cast, the
+   proposal then will not be adopted and the DEP will return to to
+   draft status. The DEP may be revised and restart the DEP approval
+   process.
 
 
 Motivation
 ==========
 
 This is a revisitation of Django's technical governance in which a
-simplification and reduction was made to make it more approachable to more
-people. The goals of these changes are the following:
+simplification and reduction was made to make it more approachable to
+more people. The goals of these changes are the following:
 
 - Make it easier to enact our governance
 - Make it easier for others to understand our governance
-- Make the governance more flexible, allowing more action with less procedure
+- Make the governance more flexible, allowing more action with less
+  procedure
 
 It achieves those goals with the following:
 
@@ -500,19 +534,21 @@ It achieves those goals with the following:
   governance documents (DEP 10 & 12)
 - Reducing the number of sections and topics
 - Including more headings
-- Outsourcing specific topics such as releases and teams to other resources
+- Outsourcing specific topics such as releases and teams to other
+  resources
 - Removing the RFC 2119 language
-- Reducing the scope of eligible voters to reflect and take advantages of the
-  broader DSF Individual Membership eligibility
+- Reducing the scope of eligible voters to reflect and take
+  advantages of the broader DSF Individual Membership eligibility
 
 
 Rationale
 =========
 
-Similar to DEP 12, this is another iteration on our governance. While this is
-a significant change in terms of content, the spirit and intent of Django's
-technical governance remains the same. All governance requires periodic
-cultivation, and this should be seen as one of those instances.
+Similar to DEP 12, this is another iteration on our governance. While
+this is a significant change in terms of content, the spirit and intent
+of Django's technical governance remains the same. All governance
+requires periodic cultivation, and this should be seen as one of those
+instances.
 
 
 Backwards Compatibility
@@ -530,8 +566,9 @@ N/A
 Copyright
 =========
 
-This document has been placed in the public domain per the Creative Commons
-CC0 1.0 Universal license (http://creativecommons.org/publicdomain/zero/1.0/deed).
+This document has been placed in the public domain per the Creative
+Commons CC0 1.0 Universal license
+(http://creativecommons.org/publicdomain/zero/1.0/deed).
 
 (All DEPs must include this exact copyright statement.)
 
