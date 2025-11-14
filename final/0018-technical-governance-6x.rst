@@ -45,7 +45,7 @@ groups:
 
 * "Technical Team": A group of people who are delegated some
   responsibility by the Steering Council and DSF Board. The list
-  of teams can be found at the `django/dsf-working-groups repo`_.
+  of teams can be found at the `django/dsf-working-groups GitHub repository`_.
 
 * "`Security Team`_": a group of people who respond to security
   issues handled under `Django's security process
@@ -67,12 +67,11 @@ The following terms are used in this document to refer to types of
 changes made to Django's codebase:
 
 * "Minor Change" means fixing a bug in, or adding a new feature to,
-  Django of a scope small enough not to require the use of `the DEP
-  process
-  <https://github.com/django/deps/blob/main/final/0001-dep-process.rst>`_.
+  Django of a scope small enough not to require the use of
+  `the DEP process`_.
 
 * "Major Change" means any change to Django's codebase of scope
-  significant enough to require the use of the DEP process.
+  significant enough to require the use of `the DEP process`_.
 
 The following terms are used in this document to refer to types of
 releases of Django:
@@ -118,10 +117,10 @@ How Django's technical direction is determined
 ----------------------------------------------
 
 Everyone is encouraged to propose and provide feedback on new features
-for Django at any time on the new-features repo.
+for Django at any time on the `new-features GitHub repository`_.
 
 For features which qualify as a Major Change, proposers may be asked to
-use the DEP process.
+use `the DEP process`_.
 
 If discussion of a Minor Change has failed to produce consensus, a
 member may ask the Steering Council to make a decision.
@@ -184,8 +183,8 @@ Decision making process of the Steering Council
 When asked to make a technical decision, the Steering Council should
 first discuss this amongst themselves. If there's agreement on a course
 of action, a single member will respond the forum, ticket, or
-new-features repo on behalf of the Steering Council. It may optionally
-include a dissenting opinion if someone wishes to include one.
+`new-features GitHub repository`_ on behalf of the Steering Council. It
+may optionally include a dissenting opinion if someone wishes to include one.
 
 If the Steering Council can't arrive at an agreement, a formal vote may
 be invoked.
@@ -214,8 +213,8 @@ following process:
    Council members voting yes.
 
 5. The outcome of the proposal will be published on the forum, ticket,
-   or new-features repo. It should contain the reasoning for the
-   decision, the concerns considered and optionally any dissenting
+   or `new-features GitHub repository`_. It should contain the reasoning for
+   the decision, the concerns considered and optionally any dissenting
    opinions.
 
 Votes of the Steering Council are binding, meaning all Django
@@ -414,7 +413,7 @@ and powers to various teams. These teams can be created without
 changes to the technical governance document.
 
 To see the list of technical teams and the process of adding new
-technical teams, please see the `django/dsf-working-groups repo`_.
+technical teams, please see the `django/dsf-working-groups GitHub repository`_.
 
 
 Interaction of the Steering Council and the Security Team
@@ -579,4 +578,6 @@ Commons CC0 1.0 Universal license
 .. _Releasers Team: https://github.com/django/dsf-working-groups/blob/main/active/releasers-team.md
 .. _Security Team: https://github.com/django/dsf-working-groups/blob/main/active/security-team.md
 .. _Triage & Review Team: https://github.com/django/dsf-working-groups/blob/main/active/triage-and-review-team.md
-.. _django/dsf-working-groups repo: https://github.com/django/dsf-working-groups
+.. _django/dsf-working-groups GitHub repository: https://github.com/django/dsf-working-groups
+.. _new-features GitHub repository: https://github.com/django/new-features
+.. _the DEP process: https://github.com/django/deps/blob/main/final/0001-dep-process.rst
