@@ -521,22 +521,36 @@ This is a revisitation of Django's technical governance in which a
 simplification and reduction was made to make it more approachable to
 more people. The goals of these changes are the following:
 
-- Make it easier to enact our governance
-- Make it easier for others to understand our governance
-- Make the governance more flexible, allowing more action with less
-  procedure
+* Make it easier to enact our governance.
+
+* Make it easier for others to understand our governance.
+
+* Make the governance more flexible, allowing more action with less
+  procedure.
 
 It achieves those goals with the following:
 
-- Presenting a merged governance document avoiding overruling
-  governance documents (DEP 10 & 12)
-- Reducing the number of sections and topics
-- Including more headings
-- Outsourcing specific topics such as releases and teams to other
-  resources
-- Removing the RFC 2119 language
-- Reducing the scope of eligible voters to reflect and take
-  advantages of the broader DSF Individual Membership eligibility
+* Presenting a merged governance document avoiding overruling
+  governance documents (DEP 10 & 12).
+
+* Reducing the number of sections and topics.
+
+* Including more headings.
+
+* Outsourcing specific topics such as releases and teams to other
+  resources.
+
+* Removing the RFC 2119 language.
+
+* Reducing the scope of eligible voters to reflect and take
+  advantage of the broader DSF Individual Membership eligibility.
+
+* Allowing approving DEPs during elections.
+
+* Allowing governance changing DEPs during elections.
+
+* Allowing the Steering Council to revisit vetoed discussions at
+  their discretion.
 
 
 Rationale
@@ -547,6 +561,80 @@ this is a significant change in terms of content, the spirit and intent
 of Django's technical governance remains the same. All governance
 requires periodic cultivation, and this should be seen as one of those
 instances.
+
+Regarding specific changes:
+
+* Presenting a merged governance document avoiding overruling
+  governance documents (DEP 10 & 12).
+
+  * A single document avoids having to read two documents to
+    understand the governance.
+
+* Reducing the number of sections and topics.
+
+  * DEP 10 sought to provide information on how the new governance
+    would operate. While helpful in that moment, it eventually
+    became a burden when revisiting the document.
+
+* Including more headings.
+
+  * Makes the document more accessible and makes it easier to
+    find specific information.
+
+* Outsourcing specific topics such as releases and teams to other
+  resources.
+
+  * This document has a high resistance to change. By moving topics
+    such as membership requirements for technical teams to their own
+    charters allows those teams to be more flexible. It's possible
+    this document will refer to others, similar to `DEP 44`_ and the
+    `How Django is released`_ section.
+
+* Removing the RFC 2119 language.
+
+  * This language made the document difficult to read. Removing it
+    should help others read the document more easily and engage with
+    the content more.
+
+* Reducing the scope of eligible voters to reflect and take
+  advantage of the broader DSF Individual Membership eligibility.
+
+  * This reduces the amount of rules in the document, makes it easier
+    to read and allows effectively the same number of people to
+    participate in Steering Council elections.
+
+* Allowing approving DEPs during elections.
+
+  * The community and Board both have mechanisms to remove an unruly
+    Steering Council. These limitations appear to have only limited
+    productive functions of the Steering Council. Allowing approving
+    DEPs during elections allows for the community to operate more
+    freely. It's possible that a newly elected Steering Council will
+    change decisions from the previous Steering Council. This is seen
+    as the system working. If at any point, the trust in this system
+    is abused, the community can rely on reporting members for
+    violations of Django's Code of Conduct.
+
+* Allowing governance changing DEPs during elections.
+
+  * Governance changing DEPs require an approval from the Board. This
+    limitation appears to only limit productive functions of the
+    Steering Council. If an outgoing Steering Council attempts to
+    enact undesirable changes at the end of their term, the Board
+    exists as the check. This allows the Steering Council to make
+    changes that are productive during this time. A common governance
+    change has been to revisit voting requirements. This usually
+    becomes relevant right when an election is starting.
+
+* Allowing the Steering Council to revisit vetoed discussions at
+  their discretion.
+
+  * This prevents one Steering Council from limiting the next
+    Steering Council in an undesirable fashion. If a community
+    member is asking for discussions to be revisited frequently, to
+    the extent of being annoying, that would be a Django Code of
+    Conduct Violation.
+
 
 
 Backwards Compatibility
