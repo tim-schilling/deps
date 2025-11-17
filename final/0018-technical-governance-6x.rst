@@ -260,9 +260,6 @@ complete:
   of Django Fellows, are be temporary, and will require confirmation
   by the newly elected Steering Council.
 
-* The Steering Council must not accept any DEPs or changes to DEPs,
-  and must not change the governance process described in this
-  document.
 
 Steering Council election triggers
 **********************************
