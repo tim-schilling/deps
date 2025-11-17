@@ -125,8 +125,8 @@ use `the DEP process`_.
 If discussion of a Minor Change has failed to produce consensus, a
 member may ask the Steering Council to make a decision.
 
-Vetoed discussions and features are eligible to be revisited after six
-months.
+Vetoed discussions and features are eligible to be revisited at the
+Steering Council's discretion.
 
 
 How Django is released
