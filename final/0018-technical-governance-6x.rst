@@ -257,7 +257,7 @@ following limits are put in place until the election process is
 complete:
 
 * Any appointments to the roles of Merger and/or Releaser, other than
-  of Django Fellows, are be temporary, and will require confirmation
+  of Django Fellows, are temporary, and will require confirmation
   by the newly elected Steering Council.
 
 
