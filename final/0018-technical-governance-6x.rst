@@ -26,43 +26,6 @@ community from a technical perspective and how these are changed.
 Terminology
 ===========
 
-For clarity, this DEP uses the following terms to refer to existing
-groups:
-
-* "DSF" and "DSF Board": the Django Software Foundation and its Board
-  of Directors, respectively.
-
-* "Steering Council": See `Steering Council role`_ for details.
-
-* "DSF Individual members": the group of people who are members of
-  the Django Software Foundation. `The current list can be found here
-  <https://www.djangoproject.com/foundation/individual-members/>`_.
-
-* "Django Fellows": a list of multiple people who have been or still
-  are paid by the Django Software Foundation to perform various tasks,
-  including triaging issues, reviewing and merging pull requests, and
-  managing Django's releases.
-
-* "Technical Team": A group of people who are delegated some
-  responsibility by the Steering Council and DSF Board. The list
-  of teams can be found at the `django/dsf-working-groups GitHub repository`_.
-
-* "`Security Team`_": a group of people who respond to security
-  issues handled under `Django's security process
-  <https://www.djangoproject.com/security/>`_.
-
-* "`Mergers Team`_": A group of people who merge pull requests to the
-  `Django Git repository <https://github.com/django/django>`_.
-
-* "`Releasers Team`_": A group of people who `build Django releases
-  <https://docs.djangoproject.com/en/dev/internals/howto-release-django/>`_.
-
-* "`Triage & Review Team`_": A group of people who assist with the
-  processing of pull requests.
-
-* "Django Forum": the discussion forum at `forum.djangoproject.com
-  <https://forum.djangoproject.com/>`_.
-
 The following terms are used in this document to refer to types of
 changes made to Django's codebase:
 
@@ -157,7 +120,7 @@ The powers of the Steering Council are:
   change to Django.
 
 * To manage the Steering Council's membership via an election with the
-  DSF Board secretary.
+  `DSF Board`_ secretary.
 
 * To create/update `technical teams`_
 
@@ -182,7 +145,7 @@ Decision making process of the Steering Council
 
 When asked to make a technical decision, the Steering Council should
 first discuss this amongst themselves. If there's agreement on a course
-of action, a single member will respond the forum, ticket, or
+of action, a single member will respond on the `Django Forum`_, ticket, or
 `new-features GitHub repository`_ on behalf of the Steering Council. It
 may optionally include a dissenting opinion if someone wishes to include one.
 
@@ -212,7 +175,7 @@ following process:
 4. To be accepted, the proposal must have a majority of Steering
    Council members voting yes.
 
-5. The outcome of the proposal will be published on the forum, ticket,
+5. The outcome of the proposal will be published on the `Django Forum`_, ticket,
    or `new-features GitHub repository`_. It should contain the reasoning for
    the decision, the concerns considered and optionally any dissenting
    opinions.
@@ -239,7 +202,7 @@ To be qualified for the Steering Council, a person must demonstrate:
   * Documentation, tutorials or blog posts
 
   * Discussions about Django on the django-developers mailing list or
-    the Django Forum
+    the `Django Forum`_
 
   * Running Django-related events or user groups
 
@@ -257,7 +220,7 @@ following limits are put in place until the election process is
 complete:
 
 * Any appointments to the roles of Merger and/or Releaser, other than
-  of Django Fellows, are temporary, and will require confirmation
+  of `Django Fellows`_, are temporary, and will require confirmation
   by the newly elected Steering Council.
 
 
@@ -281,7 +244,7 @@ following events:
 Steering Council voting eligibility
 ***********************************
 
-Only Individual members of the DSF are eligible to vote in elections
+Only `DSF Individual members`_. of the DSF are eligible to vote in elections
 of the Steering Council.
 
 The privilege to vote in elections of the Steering Council may be
@@ -305,7 +268,7 @@ The process of electing a Steering Council is as follows:
 1. When an election is triggered, the Steering Council will notify the
    Secretary of the DSF, in writing, of the triggering of the
    election, and the condition which triggered it. The Secretary of
-   the DSF then will post to the Django Forum and other appropriate
+   the DSF then will post to the `Django Forum`_ and other appropriate
    venues to announce the election and its timeline.
 
 2. As soon as the election is announced, the DSF Board shall begin a
@@ -395,7 +358,7 @@ Upon seconding by another individual member of the DSF the DSF Board
 will evaluate the merits of the statement of no-confidence in their
 next meeting.
 
-If the statement is found to be accurate and correct the Board shall
+If the statement is found to be accurate and correct the DSF Board shall
 inform the Steering Council of the breach and provide 2 weeks to
 rectify said breach. If the Steering Council fails to rectify the
 breach in the time allotted, a new Steering Council election will be
@@ -405,7 +368,7 @@ election.
 Technical teams
 ---------------
 
-The Steering Council and DSF Board delegate certain responsibilities
+The Steering Council and `DSF Board`_ delegate certain responsibilities
 and powers to various teams. These teams can be created without
 changes to the technical governance document.
 
@@ -475,7 +438,7 @@ process as described in DEP 1, with modifications as described below.
    in writing, of the existence of an accepted DEP for changing the
    governance process.
 
-3. The DSF Board will hold a vote on a motion to adopt the proposed
+3. The `DSF Board`_ will hold a vote on a motion to adopt the proposed
    change. If the DSF Board rejects the motion, the governance process
    will not change, and the Secretary of the DSF will notify the
    Steering Council, in writing, of the DSF Board's objections to the
@@ -585,7 +548,7 @@ Regarding specific changes:
   resources.
 
   * This document has a high resistance to change. By moving topics
-    such as membership requirements for technical teams to their own
+    such as membership requirements for `technical teams`_ to their own
     charters allows those teams to be more flexible. It's possible
     this document will refer to others, similar to `DEP 44`_ and the
     `How Django is released`_ section.
@@ -605,7 +568,7 @@ Regarding specific changes:
 
 * Allowing approving DEPs during elections.
 
-  * The community and Board both have mechanisms to remove an unruly
+  * The community and `DSF Board`_ both have mechanisms to remove an unruly
     Steering Council. These limitations appear to have only limited
     productive functions of the Steering Council. Allowing approving
     DEPs during elections allows for the community to operate more
@@ -617,10 +580,10 @@ Regarding specific changes:
 
 * Allowing governance changing DEPs during elections.
 
-  * Governance changing DEPs require an approval from the Board. This
+  * Governance changing DEPs require an approval from the DSF Board. This
     limitation appears to only limit productive functions of the
     Steering Council. If an outgoing Steering Council attempts to
-    enact undesirable changes at the end of their term, the Board
+    enact undesirable changes at the end of their term, the DSF Board
     exists as the check. This allows the Steering Council to make
     changes that are productive during this time. A common governance
     change has been to revisit voting requirements. This usually
@@ -666,3 +629,8 @@ Commons CC0 1.0 Universal license
 .. _django/dsf-working-groups GitHub repository: https://github.com/django/dsf-working-groups
 .. _new-features GitHub repository: https://github.com/django/new-features
 .. _the DEP process: https://github.com/django/deps/blob/main/final/0001-dep-process.rst
+.. _DSF Individual Members: https://www.djangoproject.com/foundation/individual-members/
+.. _DSF Board: https://www.djangoproject.com/foundation/#board
+.. _Django Fellows: https://www.djangoproject.com/foundation/teams/#django-fellows-team
+.. _technical teams: https://www.djangoproject.com/foundation/teams/
+.. _Django Forum: https://forum.djangoproject.com/
