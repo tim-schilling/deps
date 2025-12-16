@@ -71,7 +71,7 @@ their own commits if it's been reviewed by another Merger, the
 `Releasers Team`_ can also merge commits when they are related to
 releases.
 
-Changes that fail to reach "minor consensus" can be escalated to the
+A Minor Change that fails to reach consensus can be escalated to the
 Steering Council for a final decision to merge.
 
 
