@@ -392,8 +392,8 @@ Any Django Software Foundation individual member may make a public
 statement of no-confidence in the Steering Council by identifying a
 material breach of their duties as defined in the technical governance.
 Upon seconding by another individual member of the DSF the DSF Board
-SHALL no later than the next scheduled board meeting evaluate the
-merits of the statement of no-confidence.
+will evaluate the merits of the statement of no-confidence in their
+next meeting.
 
 If the statement is found to be accurate and correct the Board shall
 inform the Steering Council of the breach and provide 2 weeks to
