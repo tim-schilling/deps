@@ -364,6 +364,19 @@ breach in the time allotted, a new Steering Council election will be
 triggered. Current members of the Steering Council may run in the new
 election.
 
+Steering Council reports
+++++++++++++++++++++++++
+
+The Steering Council should produce reports of its actions and the state
+of Django.
+
+* The Steering Council's meeting minutes can be found in the
+  `steering-council GitHub repository`_.
+
+* The `Django features roadmap`_ for can be found in the
+  `new-features GitHub repository`_
+
+
 Technical teams
 ---------------
 
@@ -633,3 +646,5 @@ Commons CC0 1.0 Universal license
 .. _Django Fellows: https://www.djangoproject.com/foundation/teams/#django-fellows-team
 .. _technical teams: https://www.djangoproject.com/foundation/teams/
 .. _Django Forum: https://forum.djangoproject.com/
+.. _steering-council GitHub repository: https://github.com/django/steering-council
+.. _Django features roadmap: https://github.com/orgs/django/projects/24
