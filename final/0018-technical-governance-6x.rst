@@ -62,7 +62,6 @@ Specification
 How Django is developed
 -----------------------
 
-Any person who signs the contributor CLA can write code for Django.
 Everyone is encouraged to open tickets, triage tickets and perform code
 reviews.
 
