@@ -210,6 +210,8 @@ To be qualified for the Steering Council, a person must demonstrate:
   in the past three years must still demonstrate an understanding of
   Django's changes and direction within those three years.
 
+Members of the `DSF Board`_ are ineligible to serve on the Steering Council.
+
 
 Steering Council elections
 ++++++++++++++++++++++++++
@@ -249,11 +251,7 @@ of the Steering Council.
 Steering Council election process
 *********************************
 
-The DSF shall manage the election process. Members of the DSF Board
-can stand for election to the Steering Council if qualified, but any
-DSF Board member who is a current member of the Steering Council or a
-candidate in an upcoming election must abstain from taking part in the
-DSF Board's oversight of that Steering Council election. The DSF Board
+The DSF shall manage the election process. The DSF Board
 can delegate some responsibilities, but only the DSF Board can ratify
 the results of a election.
 
@@ -398,7 +396,7 @@ The `Security Team`_ has the following powers:
 In the event that the Steering Council feels the Security Team has
 used the above powers inappropriately, the Steering Council may appeal
 to the DSF Board to mediate the issue. Any member of the DSF Board who
-is also a member of the Security Team or of the Steering Council will
+is also a member of the Security Team will
 abstain from participation in the DSF Board's decision-making in such
 mediation. The decision of the DSF Board in the dispute will be
 binding on both the Steering Council and the Security Team.
@@ -422,7 +420,7 @@ interactions should occur:
 
 In the event of a dispute between the Steering Council and a team,
 the DSF Board shall serve as mediator. Any member of the DSF Board who
-is also a member of the Steering Council or of the affected team will
+is also a member of the affected team will
 abstain from the DSF Board's decision-making in such mediation. The
 decision of the DSF Board in the dispute will be binding on both the
 Steering Council and the affected team.
@@ -522,6 +520,8 @@ It achieves those goals with the following:
 * Allowing the Steering Council to revisit vetoed discussions at
   their discretion.
 
+* Not allowing Board members to serve on the Steering Council.
+
 
 Rationale
 =========
@@ -605,6 +605,11 @@ Regarding specific changes:
     the extent of being annoying, that would be a Django Code of
     Conduct Violation.
 
+* Not allowing Board members to serve on the Steering Council.
+
+  * This simplifies some of the governance by reducing exception cases.
+    Plus, these roles are meant to be time-intensive and it's unlikely
+    for someone to do both well.
 
 
 Backwards Compatibility
