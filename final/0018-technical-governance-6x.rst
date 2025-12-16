@@ -119,7 +119,7 @@ The powers of the Steering Council are:
   change to Django.
 
 * To manage the Steering Council's membership via an election with the
-  `DSF Board`_ secretary.
+  `DSF Board`_.
 
 * To create/update `technical teams`_
 
@@ -265,9 +265,9 @@ the results of a election.
 The process of electing a Steering Council is as follows:
 
 1. When an election is triggered, the Steering Council will notify the
-   Secretary of the DSF, in writing, of the triggering of the
-   election, and the condition which triggered it. The Secretary of
-   the DSF then will post to the `Django Forum`_ and other appropriate
+   DSF Board, in writing, of the triggering of the
+   election, and the condition which triggered it. The DSF Board
+   then will post to the `Django Forum`_ and other appropriate
    venues to announce the election and its timeline.
 
 2. As soon as the election is announced, the DSF Board shall begin a
@@ -282,7 +282,7 @@ The process of electing a Steering Council is as follows:
 
 3. Registration of candidates will close two weeks after it has
    opened. One week after registration of candidates closes, the
-   Secretary of the DSF will publish the roster of candidates to the
+   DSF Board will publish the roster of candidates to the
    the Django Forum and any other appropriate venues, and the election
    will begin. The DSF Board will provide a voting form accessible to
    registered voters.
@@ -296,7 +296,7 @@ The process of electing a Steering Council is as follows:
    will tally the votes and produce a summary, including the total
    number of votes cast and the number received by each candidate.
    This summary will be ratified by a majority vote of the DSF Board,
-   then posted by the Secretary of the DSF to the the Django Forum and
+   then posted by the DSF Board to the the Django Forum and
    any other appropriate venues. The five candidates with the highest
    vote totals will immediately become the new Steering Council.
 
@@ -335,10 +335,10 @@ and willing. The process is as follows:
   eligible but departing member, may nominate a candidate to fill a
   vacancy.
 
-* The Steering Council will notify the Secretary of the DSF, in
+* The Steering Council will notify the DSF Board, in
   writing, of the nomination. The DSF Board will check the
-  qualifications of the person nominated, and the Secretary of the
-  DSF will notify the Steering Council of the result. If the DSF
+  qualifications of the person nominated, and the DSF Board
+  will notify the Steering Council of the result. If the DSF
   Board determines the nominated person is not qualified, the
   nomination must be discarded.
 
@@ -446,13 +446,13 @@ process as described in DEP 1, with modifications as described below.
    the usual 3.
 
 2. Once such a DEP reaches "accepted" status, the Steering Council
-   will direct one of its members to notify the Secretary of the DSF,
+   will direct one of its members to notify `DSF Board`_,
    in writing, of the existence of an accepted DEP for changing the
    governance process.
 
 3. The `DSF Board`_ will hold a vote on a motion to adopt the proposed
    change. If the DSF Board rejects the motion, the governance process
-   will not change, and the Secretary of the DSF will notify the
+   will not change, and the DSF Board will notify the
    Steering Council, in writing, of the DSF Board's objections to the
    proposal. The DEP then returns to draft status. The DEP may be
    revised and restart the DEP approval process.
