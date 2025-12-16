@@ -121,7 +121,7 @@ The powers of the Steering Council are:
 * To manage the Steering Council's membership via an election with the
   `DSF Board`_.
 
-* To create/update `technical teams`_
+* To create/update `teams`_
 
 Steering Council's goals
 ++++++++++++++++++++++++
@@ -377,15 +377,15 @@ of Django.
   `new-features GitHub repository`_
 
 
-Technical teams
+Teams
 ---------------
 
 The Steering Council and `DSF Board`_ delegate certain responsibilities
 and powers to various teams. These teams can be created without
 changes to the technical governance document.
 
-To see the list of technical teams and the process of adding new
-technical teams, please see the `django/dsf-working-groups GitHub repository`_.
+To see the list of teams and the process of adding new
+teams, please see the `django/dsf-working-groups GitHub repository`_.
 
 
 Interaction of the Steering Council and the Security Team
@@ -560,7 +560,7 @@ Regarding specific changes:
   resources.
 
   * This document has a high resistance to change. By moving topics
-    such as membership requirements for `technical teams`_ to their own
+    such as membership requirements for `teams`_ to their own
     charters allows those teams to be more flexible. It's possible
     this document will refer to others, similar to `DEP 44`_ and the
     `How Django is released`_ section.
@@ -644,7 +644,7 @@ Commons CC0 1.0 Universal license
 .. _DSF Individual Members: https://www.djangoproject.com/foundation/individual-members/
 .. _DSF Board: https://www.djangoproject.com/foundation/#board
 .. _Django Fellows: https://www.djangoproject.com/foundation/teams/#django-fellows-team
-.. _technical teams: https://www.djangoproject.com/foundation/teams/
+.. _teams: https://www.djangoproject.com/foundation/teams/
 .. _Django Forum: https://forum.djangoproject.com/
 .. _steering-council GitHub repository: https://github.com/django/steering-council
 .. _Django features roadmap: https://github.com/orgs/django/projects/24
