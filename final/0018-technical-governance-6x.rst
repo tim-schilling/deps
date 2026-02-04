@@ -186,31 +186,154 @@ contributors must abide by the decision.
 Steering Council eligibility
 ++++++++++++++++++++++++++++
 
-To be qualified for the Steering Council, a person must demonstrate:
+To be eligible to be on the steering council, a person must do the following:
 
-* A history of substantive contributions to Django or the Django
-  ecosystem. This history must begin at least 18 months prior to the
-  individual's candidacy for the Steering Council, and include
-  substantive contributions in at least two of these bullet points:
+* Be a DSF Individual member.
 
-  * Code contributions on Django projects or major third-party packages
-    in the Django ecosystem
+* Shared any of their corporate affiliations.
 
-  * Reviewing pull requests and/or triaging Django project tickets
+* Have three or more Steering Council Qualities.
 
-  * Documentation, tutorials or blog posts
+* Not be a members of the `DSF Board`_.
 
-  * Discussions about Django on the django-developers mailing list or
-    the `Django Forum`_
+Steering Council Qualities
+**************************
 
-  * Running Django-related events or user groups
+Below are several traits a Django contributor may possess that are beneficial
+when on the Steering Council. An individual is unlikely to possess all of
+them, but qualified candidates should have more than one. Each trait is
+followed up by a set of possible indicators that could be evidence of this
+trait. The lists of indicators are not complete, if you feel you possess that
+trait with an indicator that's not listed, that is sufficient.
 
-* A history of engagement with the direction and future of Django.
-  This does not need to be recent, but candidates who have not engaged
-  in the past three years must still demonstrate an understanding of
-  Django's changes and direction within those three years.
+* `Community facilitator`_
 
-Members of the `DSF Board`_ are ineligible to serve on the Steering Council.
+* `Creator mentality`_
+
+* `Dedication to the community`_
+
+* `Forward thinking`_
+
+* `Stewardship`_
+
+* `Technical consideration focusing on Django web apps & Projects`_
+
+* `Technical consideration focusing on the developer experience & education`_
+
+* `Technical consideration focusing on the library / framework`_
+
+Community facilitator
+*********************
+
+We want people who are willing to facilitate communication and guide the
+community. They should understand the challenges of volunteerism and support
+people to be most effective. The Steering Council needs to help align the
+community, and be an occasional, yet still reliable nudge to advance community
+efforts.
+
+Indicators:
+
+* Led or shepherded one or several DEPs
+
+* Led a working group or team, conference, organization
+
+Creator mentality
+*****************
+
+We want people who are self-driven, willing to find problems and push
+solutions forward. The Steering Council needs to take consistent, incremental
+steps forward to implement its long-term strategies.
+
+Indicators
+
+* Participated with one or several DEPs
+
+* Participated in a related working group or team, conference, organization
+
+* Maintained well-used Python package
+
+Dedication to the community
+***************************
+
+We want people who are invested in the community to lead it. This can be a
+professional interest in seeing Django succeed or desire to repay the
+community. The Steering Council needs to be trusted to act in the best
+interest for the community.
+
+Indicators:
+
+* Long-time Django user
+
+* Long-time Django community contributor
+
+Forward thinking
+****************
+
+We want people who have a vision for Django that extends years into the
+future. The Steering Council needs to plan and execute on long-term
+strategies for Django.
+
+Indicators:
+
+* Participated with one or several DEPs
+
+* Participated in a related working group or team, conference, organization
+
+* Created content on the topic
+
+Stewardship
+***********
+
+We want people who understand Django's value of robustness and consistency.
+The Steering Council needs to make decisions that keep Django reliable and
+trusted.
+
+Indicators:
+
+* Participated with one or several DEPs
+
+* Participated in a related working group or team, conference, organization
+
+* Created content on the topic
+
+Technical consideration focusing on Django web apps & Projects
+**************************************************************
+
+We want people who know how Django is used to build real-world applications.
+The Steering Council needs to understand the needs of web applications and
+experience with actual usage allows that.
+
+Indicators:
+
+* Experience building and maintaining production Django apps over years
+
+* Has a large network of people who maintain and build Django applications
+
+Technical consideration focusing on the developer experience & education
+************************************************************************
+
+We want people who consider Django from a developer experience and education
+point of view. The Steering Council needs to consider what it's like to learn
+Django and how to be more effective with it.
+
+Indicators:
+
+* Content creator about Django
+
+* Has contributed to Django documentation and/or support content
+
+Technical consideration focusing on the library / framework
+***********************************************************
+
+We want people who have a strong understanding of Django from the framework's
+perspective. The Steering Council needs to be able to weigh technical
+decisions appropriately and familiarity with the code supports that.
+
+Indicators:
+
+* Familiar with several areas of the Django codebase
+
+* Has helped maintain Django or another well-used project for years
 
 
 Steering Council elections
