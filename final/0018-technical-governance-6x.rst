@@ -262,9 +262,9 @@ interest for the community.
 
 Indicators:
 
-* Long-time Django user
+* Multi-year Django user
 
-* Long-time Django community contributor
+* Multi-year Django community contributor
 
 Forward thinking
 ****************
