@@ -368,15 +368,14 @@ following events:
 Steering Council voting eligibility
 ***********************************
 
-Only `DSF Individual members`_. of the DSF are eligible to vote in elections
+All `DSF Individual members`_ are eligible to vote in elections
 of the Steering Council.
 
 Steering Council election process
 *********************************
 
-The DSF shall manage the election process. The DSF Board
-can delegate some responsibilities, but only the DSF Board can ratify
-the results of a election.
+The DSF Board shall manage the election process. They can delegate
+aspects of the process as needed.
 
 The process of electing a Steering Council is as follows:
 
@@ -397,24 +396,21 @@ The process of electing a Steering Council is as follows:
    faith.
 
 3. Registration of candidates will close two weeks after it has
-   opened. One week after registration of candidates closes, the
-   DSF Board will publish the roster of candidates to the
-   the Django Forum and any other appropriate venues, and the election
-   will begin. The DSF Board will provide a voting form accessible to
-   registered voters.
+   opened. After registration of candidates closes, the DSF Board will
+   publish the roster of candidates to the Django Forum and any other
+   appropriate venues, and the election will begin. The DSF Board will
+   provide a voting form accessible to registered voters.
 
-4. Voting will be by secret ballot. Each voter will be presented with
-   a ballot containing the roster of candidates, and any relevant
-   materials regarding the candidates, in a randomized order. Each
-   voter may vote for up to five candidates on the ballot.
+4. The voting system is selected by the DSF Board. Voting will be by secret
+   ballot. Each voter will be presented with a ballot containing the roster
+   of candidates, and any relevant materials regarding the candidates, in a
+   randomized order.
 
-5. The election will conclude one week after it begins. The DSF Board
-   will tally the votes and produce a summary, including the total
-   number of votes cast and the number received by each candidate.
-   This summary will be ratified by a majority vote of the DSF Board,
-   then posted by the DSF Board to the the Django Forum and
-   any other appropriate venues. The five candidates with the highest
-   vote totals will immediately become the new Steering Council.
+5. The election will conclude three weeks after it begins. The DSF Board will
+   tally the votes and produce a summary. This summary will be ratified by a
+   majority vote of the DSF Board, then posted by the DSF Board to the Django
+   Forum and any other appropriate venues. The five candidates with the
+   highest vote totals will immediately become the new Steering Council.
 
 Removing a single Steering Council member
 *****************************************
