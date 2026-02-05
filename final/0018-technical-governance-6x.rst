@@ -216,11 +216,11 @@ trait with an indicator that's not listed, that is sufficient.
 
 * `Stewardship`_
 
-* `Technical consideration focusing on Django web apps & Projects`_
+* `Django usage expertise`_
 
-* `Technical consideration focusing on the developer experience & education`_
+* `Django education expertise`_
 
-* `Technical consideration focusing on the library / framework`_
+* `Django maintenance expertise`_
 
 Community facilitator
 *********************
@@ -296,8 +296,8 @@ Indicators:
 
 * Created content or participated in discussions on the topic
 
-Technical consideration focusing on Django web apps & Projects
-**************************************************************
+Django usage expertise
+**********************
 
 We want people who know how Django is used to build real-world applications.
 The Steering Council needs to understand the needs of web applications and
@@ -309,8 +309,8 @@ Indicators:
 
 * Has a large network of people who maintain and build Django applications
 
-Technical consideration focusing on the developer experience & education
-************************************************************************
+Django education expertise
+**************************
 
 We want people who consider Django from a developer experience and education
 point of view. The Steering Council needs to consider what it's like to learn
@@ -322,8 +322,8 @@ Indicators:
 
 * Has contributed to Django documentation and/or support content
 
-Technical consideration focusing on the library / framework
-***********************************************************
+Django maintenance expertise
+****************************
 
 We want people who have a strong understanding of Django from the framework's
 perspective. The Steering Council needs to be able to weigh technical
