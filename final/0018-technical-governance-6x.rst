@@ -307,7 +307,7 @@ Indicators:
 
 * Experience building and maintaining production Django apps over years
 
-* Has a large network of people who maintain and build Django applications
+* Has a network of people who maintain and build Django applications
 
 Django education expertise
 **************************
