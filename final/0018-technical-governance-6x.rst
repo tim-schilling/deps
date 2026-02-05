@@ -279,7 +279,7 @@ Indicators:
 
 * Participated in a related working group or team, conference, organization
 
-* Created content on the topic
+* Created content or participated in discussions on the topic
 
 Stewardship
 ***********
@@ -294,7 +294,7 @@ Indicators:
 
 * Participated in a related working group or team, conference, organization
 
-* Created content on the topic
+* Created content or participated in discussions on the topic
 
 Technical consideration focusing on Django web apps & Projects
 **************************************************************
