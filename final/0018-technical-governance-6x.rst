@@ -244,7 +244,7 @@ We want people who are self-driven, willing to find problems and push
 solutions forward. The Steering Council needs to take consistent, incremental
 steps forward to implement its long-term strategies.
 
-Indicators
+Indicators:
 
 * Participated with one or several DEPs
 
