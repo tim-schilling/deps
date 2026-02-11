@@ -477,7 +477,9 @@ Steering Council reports
 ++++++++++++++++++++++++
 
 The Steering Council should produce reports of its actions and the state
-of Django.
+of Django. To facilitate the standing goal of transparency, as appropriate,
+and at their discretion the Steering Council may publish additional posts to
+help communicate progress.
 
 * The Steering Council's meeting minutes can be found in the
   `steering-council GitHub repository`_.
