@@ -179,9 +179,6 @@ following process:
    the decision, the concerns considered and optionally any dissenting
    opinions.
 
-Votes of the Steering Council are binding, meaning all Django
-contributors must abide by the decision.
-
 
 Steering Council eligibility
 ++++++++++++++++++++++++++++
