@@ -148,37 +148,6 @@ of action, a single member will respond on the `Django Forum`_, ticket, or
 `new-features GitHub repository`_ on behalf of the Steering Council. It
 may optionally include a dissenting opinion if someone wishes to include one.
 
-If the Steering Council can't arrive at an agreement, a formal vote may
-be invoked.
-
-Voting process of the Steering Council
-++++++++++++++++++++++++++++++++++++++
-
-When a vote of the Steering Council is held, they use the
-following process:
-
-1. A proposal is proposed to the Steering Council in the form of a yes
-   or no question. For example: "Shall the Django project accept and
-   begin implementation of DEP 10?"
-
-2. The possible outcomes of a vote are:
-
-   * Accept: the "yes" option of the question is to be taken.
-
-   * Veto: the "no" option of the question is taken, and the proposal
-     is subject to the waiting period for reconsideration.
-
-3. Members of the Steering Council will vote privately or respond with
-   a timeline to vote within a week.
-
-4. To be accepted, the proposal must have a majority of Steering
-   Council members voting yes.
-
-5. The outcome of the proposal will be published on the `Django Forum`_, ticket,
-   or `new-features GitHub repository`_. It should contain the reasoning for
-   the decision, the concerns considered and optionally any dissenting
-   opinions.
-
 
 Steering Council eligibility
 ++++++++++++++++++++++++++++
@@ -640,6 +609,9 @@ It achieves those goals with the following:
 
 * Not allowing Board members to serve on the Steering Council.
 
+* Removing the explicit voting from the decision making of the Steering
+  Council.
+
 
 Rationale
 =========
@@ -729,6 +701,14 @@ Regarding specific changes:
     Plus, these roles are meant to be time-intensive and it's unlikely
     for someone to do both well.
 
+* Removing the explicit voting from the decision making of the Steering
+  Council.
+
+  * This accurately reflects the process the 6.X Steering Council has
+    been using. Future Steering Councils may internally decide to use
+    voting, however it is not a necessary process. The discussion and
+    deliberation is a more accurate representation of how the Django
+    community arrives at consensus.
 
 Backwards Compatibility
 =======================
