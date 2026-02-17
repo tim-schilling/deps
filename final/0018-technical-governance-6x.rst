@@ -612,6 +612,9 @@ It achieves those goals with the following:
 * Removing the explicit voting from the decision making of the Steering
   Council.
 
+* Using a collection of qualities Steering Council candidates rather than
+  specific eligibility prerequisites.
+
 
 Rationale
 =========
@@ -709,6 +712,16 @@ Regarding specific changes:
     voting, however it is not a necessary process. The discussion and
     deliberation is a more accurate representation of how the Django
     community arrives at consensus.
+
+* Using a collection of qualities Steering Council candidates rather than
+  specific eligibility prerequisites.
+
+  * The specific eligibility requirements seemed to cause candidates to self-
+    select out. By listing the qualities and traits a Steering Council member
+    may have, a prospective candidate may feel more qualified to run. It has
+    been difficult to quantify what experience will make a good Steering
+    Council member. By leaning into the qualitative aspects, this should help
+    make it easier to nominate yourself for the Steering Council.
 
 Backwards Compatibility
 =======================
