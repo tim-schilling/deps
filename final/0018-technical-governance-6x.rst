@@ -615,6 +615,9 @@ It achieves those goals with the following:
 * Using a collection of qualities Steering Council candidates rather than
   specific eligibility prerequisites.
 
+* Allowing the DSF Board greater autonomy in running the Steering Council
+  elections.
+
 
 Rationale
 =========
@@ -722,6 +725,13 @@ Regarding specific changes:
     been difficult to quantify what experience will make a good Steering
     Council member. By leaning into the qualitative aspects, this should help
     make it easier to nominate yourself for the Steering Council.
+
+* Allowing the DSF Board greater autonomy in running the Steering Council
+  elections.
+
+  * By not including as many requirements of the voting mechanics, the Board
+    can integrate lessons learned from the DSF Board elections for the
+    Steering Council.
 
 Backwards Compatibility
 =======================
