@@ -326,9 +326,9 @@ following events:
   Major Release Series.
 
 * The resignation or another event that leaves Steering Council with
-  fewer than three elected members. This can happen when the rest of
-  the Steering Council would be replacement members via
-  appointments.
+  fewer than three elected members. This is to prevent the majority
+  of the Steering Council consisting of appointed members appointments
+  rather than elected members.
 
 * The Steering Council votes to hold an election.
 
