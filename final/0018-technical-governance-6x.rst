@@ -88,7 +88,7 @@ that do not fit the new features description may be presented as DEPs
 If discussion of a Minor Change has failed to produce consensus, a
 member may ask the Steering Council to make a decision.
 
-Vetoed discussions and features are eligible to be revisited at the
+Rejected discussions and features are eligible to be revisited at the
 Steering Council's discretion.
 
 
@@ -605,7 +605,7 @@ It achieves those goals with the following:
 
 * Allowing governance changing DEPs during elections.
 
-* Allowing the Steering Council to revisit vetoed discussions at
+* Allowing the Steering Council to revisit rejected discussions at
   their discretion.
 
 * Not allowing Board members to serve on the Steering Council.
@@ -693,7 +693,7 @@ Regarding specific changes:
     change has been to revisit voting requirements. This usually
     becomes relevant right when an election is starting.
 
-* Allowing the Steering Council to revisit vetoed discussions at
+* Allowing the Steering Council to revisit rejected discussions at
   their discretion.
 
   * This prevents one Steering Council from limiting the next
@@ -701,6 +701,9 @@ Regarding specific changes:
     member is asking for discussions to be revisited frequently, to
     the extent of being annoying, that would be a Django Code of
     Conduct Violation.
+
+  * This language was changed from vetoed to rejected to better match
+    the decision making process for the Steering Council.
 
 * Not allowing Board members to serve on the Steering Council.
 
