@@ -82,7 +82,8 @@ Everyone is encouraged to propose and provide feedback on new features
 for Django at any time on the `new-features GitHub repository`_.
 
 For features which qualify as a Major Change, proposers may be asked to
-use `the DEP process`_.
+use `the DEP process`_. Likewise, other changes, for example to processes,
+that do not fit the new features description may be presented as DEPs
 
 If discussion of a Minor Change has failed to produce consensus, a
 member may ask the Steering Council to make a decision.
