@@ -217,7 +217,7 @@ Indicators:
 
 * Participated in a related working group or team, conference, organization
 
-* Maintained well-used Python package
+* Maintained well-used Python/Django package
 
 Dedication to the community
 ***************************
